@@ -1,0 +1,31 @@
+.social-network {
+  position: absolute;
+  right: 1rem;
+  top: -4px;
+  width: 10%;
+  font-size: 1.8rem;
+
+  @media screen and (max-width: 650px){
+    width: 10%;
+  }
+
+  ul {
+    display: flex;
+    width: 100%;
+    min-width: 100px;
+    justify-content: space-around;
+
+    @media screen and (max-width: 450px){
+      min-width: 100%;
+    }
+
+    a {
+      padding: 1rem;
+      color: white;
+    }
+
+    a:hover {
+      color: grey;
+    }
+  }
+}

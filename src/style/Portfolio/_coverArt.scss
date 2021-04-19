@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.portfolio{
+    width: 70%;
+    margin: 0px auto;
+    color: #fff;
+    padding: 120px 40px;
+    text-align: left;
+}
+
+.title1 {
+    color: #fff;
+    font-family: $font-2;
+    font-size: 140px;
+}
+
+.section1 {
+    position: relative;
+    width: 3400px;
+    height: 730px;
+    padding: 120px 0;
+}
+
+.coverart_img1 {
+    position: relative;
+    top: -550px;
+    left: 25%;
+    background: url('../../assets/img/todas_mienten_grande.jpg');
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 500px;
+    overflow-x: scroll;
+}
+
+.coverart_img2 {
+    position: relative;
+    top: -1050px;
+    left: 45%;
+    background: url('../../assets/img/todas_mienten3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 500px;
+    overflow-x: scroll;
+}
+
+.coverart_img3 {
+    position: relative;
+    top: -1550px;
+    left: 65%;
+    background: url('../../assets/img/todas_mienten_2.png');
+    background-size: 46%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 500px;
+    overflow-x: scroll;
+}
+
+.PackshotParfum1 {
+    position: relative;
+    top: -550px;
+    left: 25%;
+    background: url('../../assets/img/parfum1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 500px;
+    overflow-x: scroll;
+}
+
+.PackshotParfum2 {
+    position: relative;
+    top: -1050px;
+    left: 45%;
+    background: url('../../assets/img/parfum2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 500px;
+    overflow-x: scroll;
+}
+
+.PackshotParfum3 {
+    position: relative;
+    top: -1550px;
+    left: 65%;
+    background: url('../../assets/img/parfum3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 500px;
+    overflow-x: scroll;
+}
