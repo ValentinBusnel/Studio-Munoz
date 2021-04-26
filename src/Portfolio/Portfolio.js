@@ -8,9 +8,6 @@ export const NoworNever = (props) => {
   <div className='outer-wrapper'>
     <div className='wrapper-NoworNever'>
       <h1 className='sub-title'>Now or <br />Never<br /></h1>
-      <video className='slide NoworNever-one'>
-        <source src='/Users/Epitech/Documents/React/test2/src/assets/img/Nowornevervideo.mp4'/>
-      </video>
       <div className='slide NoworNever-two'></div>
       <div className='slide NoworNever-three'></div>
     </div>
