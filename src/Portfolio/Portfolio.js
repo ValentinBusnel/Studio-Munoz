@@ -6,6 +6,7 @@ export const CoverArt = (props) => {
       <div>
       <Navbar />
     <div className='outer-wrapper'>
+    <Navbar />
       <div className='wrapper-coverart'>
         <h1 className='sub-title'>Cover Art <br />Todas<br />mienten</h1>
         <div className='slide coverart-one'></div>
