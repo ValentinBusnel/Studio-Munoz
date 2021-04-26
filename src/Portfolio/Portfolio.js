@@ -1,21 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 
-export const NoworNever = (props) => {
-  return (
-    <div>
-    <Navbar />
-  <div className='outer-wrapper'>
-    <div className='wrapper-NoworNever'>
-      <h1 className='sub-title'>Now or <br />Never<br /></h1>
-      <div className='slide NoworNever-two'></div>
-      <div className='slide NoworNever-three'></div>
-    </div>
-  </div>
-  </div>
-  );
-};
-
 export const CoverArt = (props) => {
     return (
       <div>

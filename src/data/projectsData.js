@@ -8,7 +8,7 @@ export const projectsData = [
     date: 'Janvier 2020',
     infos:
       'Cover Art for Venezuelan singer Jota G.',
-    img: './assets/img/now or never_1.jpg',
+    img: './assets/img/',
     link: '/NoworNever'
   },
   {

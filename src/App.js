@@ -4,14 +4,13 @@ import Home from './pages/Home'
 import { Project1 } from './pages/Projects'
 import About from './pages/About'
 import Contact from './pages/Contact'
-import { CoverArt, PackshotParfum, PackshotlightLogo, PersonalPosters, BookTraces, Monstrum, Venezuela, Passages, ArgonjiCapitales, NoworNever } from './Portfolio/Portfolio'
+import { CoverArt, PackshotParfum, PackshotlightLogo, PersonalPosters, BookTraces, Monstrum, Venezuela, Passages, ArgonjiCapitales } from './Portfolio/Portfolio'
 
 const App = () => {
   return (
     <Switch>
       <Route exact path='/' component={Home} />
       <Route exact path='/project-1' component={Project1} />
-      <Route exact path='/NoworNever' component={NoworNever} />
       <Route exact path='/coverart' component={CoverArt} />
       <Route exact path='/packshotparfum' component={PackshotParfum} />
       <Route exact path='/packshotlightLogo' component={PackshotlightLogo} />
