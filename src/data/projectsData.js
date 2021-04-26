@@ -4,12 +4,12 @@ export const projectsData = [
 
   {
     id: 1,
-    title: 'Cover Art Todas mienten',
+    title: ' Cover Art for Venezuelan DJ MrJoy.',
     date: 'Janvier 2020',
     infos:
       'Cover Art for Venezuelan singer Jota G.',
-    img: './assets/img/todas_mienten3.jpg',
-    link: '/coverart'
+    img: './assets/img/',
+    link: '/NoworNever'
   },
   {
     id: 2,
