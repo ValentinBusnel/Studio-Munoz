@@ -29,9 +29,11 @@
 
         @media screen and (max-width: 650px){
           font-size: 2rem;
+          text-align: center;
         }
         @media screen and (min-width: 1200px){
           font-size: 5rem;
+          text-align: center;
         }
 
       }
@@ -41,9 +43,11 @@
 
         @media screen and (max-width: 650px){
           font-size: 2rem;
+          display: none;
         }
         @media screen and (min-width: 1200px){
           font-size: 5rem;
+          text-align: center;
         }
       }
     }
