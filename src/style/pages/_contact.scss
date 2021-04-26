@@ -9,9 +9,10 @@
 
   @media screen and (max-width: 650px){
     background-image: url("../../assets/img/now\ or\ never_1.jpg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
+
   }
 
   .contact-main {
