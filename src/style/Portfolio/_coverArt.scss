@@ -5,101 +5,726 @@
     overflow-y: hidden;
 }
 
-.portfolio{
-    width: 70%;
-    margin: 0px auto;
-    color: #fff;
-    padding: 120px 40px;
-    text-align: left;
+.slide {
+    width: 100vw;
+    height: 100vh;
 }
 
-.title1 {
+.outer-wrapper {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.wrapper {
+    display: flex;
+    margin: 8rem 1rem 0;
+    position: absolute;
+    text-align: right;
+    width: 140vw;
+    position: sticky;
+}
+
+.sub-title{
+    position: absolute;
+    justify-content: center;
+    text-align: right;
     color: #fff;
     font-family: $font-2;
-    font-size: 140px;
+    font-size: 4rem;
 }
 
-.section1 {
-    position: relative;
-    width: 3400px;
-    height: 730px;
-    padding: 120px 0;
+.wrapper-NoworNever {
+    display: flex;
+    margin: 8rem 1rem 0;
+    position: absolute;
+    text-align: right;
+    width: 160vw;
+    position: sticky;
 }
 
-.coverart_img1 {
+.NoworNever-one {
+    margin: 0 1% 0 15%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
     position: relative;
-    top: -550px;
-    left: 25%;
-    background: url('../../assets/img/todas_mienten_grande.jpg');
-    background-size: 200%;
+    background: url(../../assets/img/Nowornevervideo.mp4);
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 600px;
-    height: 500px;
-    overflow-x: scroll;
 }
 
-.coverart_img2 {
+.NoworNever-two {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
     position: relative;
-    top: -1050px;
-    left: 45%;
-    background: url('../../assets/img/todas_mienten3.jpg');
+    background: url(../../assets/img/Nowornever1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.NoworNever-three {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/Nowornever2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.wrapper-coverart {
+    display: flex;
+    margin: 8rem 1rem 0;
+    position: absolute;
+    text-align: right;
+    width: 160vw;
+    position: sticky;
+}
+
+.coverart-one {
+    margin: 0 1% 0 15%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/todas_mienten_grande.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.coverart-two {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 400px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/todas_mienten_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.coverart-three {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/todas_mienten3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper-packshot{
+    display: flex;
+    margin: 8rem 1rem 0;
+    position: absolute;
+    text-align: right;
+    width: 190vw;
+    position: sticky;
+}
+
+.packshot-one {
+    margin: 0 1% 0 12%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/parfum1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.packshot-two {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/parfum2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.packshot-three {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/parfum3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper-packshotlight {
+    display: flex;
+    margin: 8rem 1rem 0;
+    position: absolute;
+    text-align: right;
+    width: 170vw;
+    position: sticky;
+}
+
+.packshotlight-one {
+    margin: 0 2% 0 20%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/packshotlight.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 600px;
-    height: 500px;
-    overflow-x: scroll;
 }
 
-.coverart_img3 {
+.packshotlight-two {
+    background-color: rgb(0, 0, 0);
+    margin: 0 2%;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    height: 480px;
+    overflow: hidden;
     position: relative;
-    top: -1550px;
-    left: 65%;
-    background: url('../../assets/img/todas_mienten_2.png');
-    background-size: 46%;
+    background: url(../../assets/img/packshotlight2.jpg);
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 600px;
-    height: 500px;
-    overflow-x: scroll;
+    
 }
 
-.PackshotParfum1 {
+.packshotlight-three {
+    background-color: rgb(0, 0, 0);
+    margin: 0 2%;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    height: 480px;
+    overflow: hidden;
     position: relative;
-    top: -550px;
-    left: 25%;
-    background: url('../../assets/img/parfum1.jpg');
-    background-size: cover;
+    background: url(../../assets/img/packshotlightgris.jpg);
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 600px;
-    height: 500px;
-    overflow-x: scroll;
 }
 
-.PackshotParfum2 {
-    position: relative;
-    top: -1050px;
-    left: 45%;
-    background: url('../../assets/img/parfum2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 600px;
-    height: 500px;
-    overflow-x: scroll;
+.packshotlight-four {
+        background-color: rgb(0, 0, 0);
+        margin: 0 2%;
+        text-align: center;
+        justify-content: center;
+        width: 300px;
+        height: 480px;
+        overflow: hidden;
+        position: relative;
+        background: url(../../assets/img/packshotlightorange.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
 }
 
-.PackshotParfum3 {
+.wrapper-PersonalPosters {
+    display: flex;
+    margin: 8rem 1rem 0;
+    position: absolute;
+    text-align: right;
+    width: 115vw;
+    position: sticky;
+}
+
+.PersonalPosters-one {
+    margin: 0 1% 0 21%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 400px;
+    height: 480px;
+    overflow: hidden;
     position: relative;
-    top: -1550px;
-    left: 65%;
-    background: url('../../assets/img/parfum3.jpg');
-    background-size: cover;
+    background: url(../../assets/img/015.jpg);
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 600px;
-    height: 500px;
-    overflow-x: scroll;
+}
+
+.PersonalPosters-two {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 400px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/016.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.PersonalPosters-three {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 400px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/022.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper-booktraces {
+    display: flex;
+    margin: 8rem 1rem 0;
+    position: absolute;
+    text-align: right;
+    width: 420vw;
+    position: sticky;
+}
+
+.BookTraces-one {
+    margin: 0 1% 0 5%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/book1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.BookTraces-two {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/book2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.BookTraces-three {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/book3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.BookTraces-four {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/book5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.BookTraces-five {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/book6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.BookTraces-six {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/book7.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.BookTraces-seven {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/book9.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper-monstrum {
+    display: flex;
+    margin: 8rem 1rem 0;
+    position: absolute;
+    text-align: right;
+    width: 200vw;
+    position: sticky;
+}
+
+
+.Monstrum-one {
+    margin: 0 1% 0 12%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url('../../assets/img/monstrum1_Mesa\ de\ trabajo\ 1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Monstrum-two {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/monstrum3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Monstrum-three {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/monstrum2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper-venezuela {
+    display: flex;
+    margin: 8rem 1rem 0;
+    position: absolute;
+    text-align: right;
+    width: 300vw;
+    position: sticky;
+}
+
+.Venezuela-one {
+    margin: 0 1% 0 10%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 400px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/venezuelaeste.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Venezuela-two {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 400px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/venezuela8.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Venezuela-three {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/venezuela1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Venezuela-four {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/venezuela3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Venezuela-five {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/venezuela4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Venezuela-six {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/venezuela4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Venezuela-seven {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 400px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/venezuela2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.passages {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scroll-snap-align: center
+}
+
+.wrapper-passages {
+    display: flex;
+    margin: 8rem 1rem 0;
+    position: absolute;
+    text-align: right;
+    width: 140vw;
+    position: sticky;
+}
+
+.passages-one {
+    margin: 0 1% 0 18%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/passages1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.passages-two {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/parfum3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper-argonji {
+    display: flex;
+    margin: 8rem 1rem 0;
+    position: absolute;
+    text-align: right;
+    width: 240vw;
+    position: sticky;
+}
+
+.argonji-one {
+    margin: 0 1% 0 10%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/typo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.argonji-two {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/typo1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.argonji-three {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/typo3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.argonji-four {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 400px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/typo4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.argonji-five {
+    margin: 0 1%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 400px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../assets/img/typo5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }

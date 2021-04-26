@@ -36,6 +36,9 @@ export const Project1 = () => {
         <div className='project'>
           <Project projectNumber={8} />
         </div>
+        <div className='project'>
+          <Project projectNumber={9} />
+        </div>
       </div>
     </main>
   )
