@@ -8,10 +8,17 @@
   background-size: 50% 100%;
   background-repeat: no-repeat;
   background-position: right;
+
+  @media screen and (max-width: 650px){
+    background-image: url("../../assets/img/now\ or\ never_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+  
+  }
 }
 
 .about-main {
-    //background: #1d242470;
     padding-left: 1rem;
     width: auto;
     height: 95%;
@@ -34,6 +41,7 @@
             text-align: center;
             justify-content: center;
             color: white;
+
         }
     
         p {
@@ -41,6 +49,7 @@
             top: 18%;
             color: white;
             padding: 0 80px;
+
         }
     }
 }
