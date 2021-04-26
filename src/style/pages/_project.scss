@@ -6,7 +6,6 @@
 } 
 
 
-
 .scrollbtn {
   position: fixed;
   width: 50px;
@@ -30,7 +29,7 @@ span {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   scroll-snap-align: center;
-  background: rgba(1, 102, 102, 0.24);
+  background: none;
   //border-bottom: solid 1px white;
 
   .sec {
