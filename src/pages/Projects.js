@@ -8,8 +8,7 @@ export const Project1 = () => {
     <main>
       <div className='project'>
         <div className='sec'>
-        <div><Navbar /></div>
-          <ButtonsBottom left='Home' right='about' />
+     
           <Project projectNumber={0} />
         </div>
         <div className='project'>
