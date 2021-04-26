@@ -5,7 +5,8 @@ import Project from '../components/Project'
 
 export const Project1 = () => {
   return (
-    <main>
+    <div className='pagefull'>
+
       <div className='project'>
         <div className='sec'>
           <Navbar />
@@ -40,6 +41,6 @@ export const Project1 = () => {
           <Project projectNumber={9} />
         </div>
       </div>
-    </main>
+    </div>
   )
 }
