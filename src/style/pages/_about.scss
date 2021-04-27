@@ -22,15 +22,16 @@
     width: auto;
     height: 95%;
     overflow: hidden;
-    display: flex;
 
     .about {
-      background-color: burlywood;
+      background-color: rgb(214, 123, 4);
         margin: 0;
         display: flex;
+        flex: 1;
         width: 50%;
         justify-content: center;
         text-align: center;
+        align-items: center;
 
         @media screen and (max-width: 650px){
             padding: 50%;
@@ -43,6 +44,7 @@
             text-align: center;
             justify-content: center;
             color: white;
+            align-items: center;
 
         }
     
@@ -53,6 +55,7 @@
             text-align: center;
             justify-content: center;
             padding: 0 5%;
+            align-items: center;
         }
     }
 }
