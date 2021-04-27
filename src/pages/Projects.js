@@ -14,6 +14,9 @@ export const Project1 = () => {
           <ButtonsBottom />
         </div>
         <div className='project'>
+          <Project projectNumber={0} />
+        </div>
+        <div className='project'>
           <Project projectNumber={2} />
         </div>
         <div className='project'>
