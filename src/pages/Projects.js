@@ -8,13 +8,10 @@ export const Project1 = () => {
     <div className='pagefull'>
 
       <div className='project'>
-        <div className='sec'>
-          <Navbar />
-          <ButtonsBottom left='Home' right='about' />
-          <Project projectNumber={0} />
-        </div>
         <div className='project'>
+          <Navbar />
           <Project projectNumber={1} />
+          <ButtonsBottom />
         </div>
         <div className='project'>
           <Project projectNumber={2} />
