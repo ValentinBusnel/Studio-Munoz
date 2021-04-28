@@ -16,6 +16,14 @@
     justify-content: center;
   }
 
+  .sb-main {
+   
+    @media screen and (max-width: 650px){
+      display: none;
+
+    }
+  }
+
   .home-main {
     display: grid;
     align-items: center;

@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.sb-main {
+   
+  @media screen and (max-width: 650px){
+    display: none;
+
+  }
+}
+
 .page_about {
   width: 100vw;
   height: 100vh;
