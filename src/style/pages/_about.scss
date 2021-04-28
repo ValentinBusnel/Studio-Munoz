@@ -1,81 +1,59 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.about-section {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.page_about {
+  width: 100vw;
+  height: 100vh;
   background-image: url("../../assets/img/now\ or\ never_1.jpg");
   background-size: 50% 100%;
   background-repeat: no-repeat;
   background-position: right;
+
+  @media screen and (max-width: 650px){
+
+    .container {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    background-image: url("../../assets/img/now\ or\ never_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
-.about-main {
-  overflow: hidden;
-  padding: 60px;
-}
-
-.inner-container {
-  width: 55%;
+.container {
   float: left;
-  background-color: rgb(255, 255, 255);
-  padding: 80px;
+  width: 50%;
+  height: 100vh;
+  margin: 0;
 }
 
-.inner-container h1 {
-  margin-bottom: 30px;
-  font-size: 30px;
-  font-weight: 900;
-  color: black;
-}
-
-.text {
-  font-size: 13px;
-  color: black;
-  line-height: 30px;
+.title_about {
+  margin-top: 5%;
+  letter-spacing: 3px;
   text-align: center;
-  margin-bottom: 40px;
+  font-family: "font-2", serif;
 }
 
-.skills {
-  display: flex;
-  justify-content: center;
-  font-size: 13px;
-  color: black;
-}
-
-@media screen and (max-width:1200px) {
-  .inner-container {
-    padding: 30px;
-  }
-}
-
-@media screen and (max-width:1000px) {
-  .about-section {
-      background-size: 100%;
-      padding: 100px 40px;
-  }
-
-  .inner-container {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width:600px) {
-  .about-section {
-     padding: 0;
-  }
-
-  .inner-container {
-    padding: 10px;
-  }
+.fonction {
+  margin-top: 5%;
+  letter-spacing: 3px;
+  text-align: center;
+  font-family: "font-2", serif;
 }
 
 
-
-
+.description {
+  margin-top: 5%;
+  letter-spacing: 3px;
+  text-align: center;
+  font-family: "font-2", serif;
+  padding: 0 5%;
+}
