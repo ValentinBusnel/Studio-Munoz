@@ -1,61 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-
-.main {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
+.about-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url("../../assets/img/now\ or\ never_1.jpg");
   background-size: 50% 100%;
   background-repeat: no-repeat;
   background-position: right;
-
-  @media screen and (max-width: 650px){
-    background-image: url("../../assets/img/now\ or\ never_1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-  
-  }
 }
 
 .about-main {
-    width: auto;
-    height: 95%;
-    overflow: hidden;
-
-    .about {
-      background-color: rgb(214, 123, 4);
-        margin: 0;
-        display: flex;
-        flex: 1;
-        width: 50%;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-
-        @media screen and (max-width: 650px){
-            padding: 50%;
-        }
-        
-    
-        h1 {
-            top: 10%;
-            position: absolute;
-            text-align: center;
-            justify-content: center;
-            color: white;
-            align-items: center;
-
-        }
-    
-        p {
-            position: absolute;
-            top: 18%;
-            color: white;
-            text-align: center;
-            justify-content: center;
-            padding: 0 5%;
-            align-items: center;
-        }
-    }
+  overflow: hidden;
+  padding: 60px;
 }
+
+.inner-container {
+  width: 55%;
+  float: left;
+  background-color: rgb(255, 255, 255);
+  padding: 80px;
+}
+
+.inner-container h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+  color: black;
+}
+
+.text {
+  font-size: 13px;
+  color: black;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  color: black;
+}
+
+@media screen and (max-width:1200px) {
+  .inner-container {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .about-section {
+      background-size: 100%;
+      padding: 100px 40px;
+  }
+
+  .inner-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .about-section {
+     padding: 0;
+  }
+
+  .inner-container {
+    padding: 10px;
+  }
+}
+
+
+
+
