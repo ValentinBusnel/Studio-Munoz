@@ -56,10 +56,11 @@
       h2 {
         font-size: 4.2rem;
         font-weight: 100;
+        position: absolute;
 
         @media screen and (max-width: 650px){
           font-size: 2rem;
-          display: none;
+          font-weight: 100;
         }
         @media screen and (min-width: 1200px){
           font-size: 5rem;
