@@ -4,18 +4,43 @@ import Navbar from '../components/Navbar';
 export const CoverArt = (props) => {
     return (
       <div>
-      <Navbar />
-    <div className='outer-wrapper'>
-      <div className='wrapper-coverart'>
-        <h1 className='sub-title'>Cover Art <br />Todas<br />mienten</h1>
-        <div className='slide coverart-one'></div>
-        <div className='slide coverart-two'></div>
-        <div className='slide coverart-three'></div>
+        <Navbar />
+          <div id="js-scroll">
+            <div class="wrapper">
+              <div class="project__container" data-scroll-section>
+                  <div class="project__container-title" data-scroll>
+                    <h1 class="anime-js-title">Cover Art Todas mienten</h1>
+              </div>
+              <div class="project__container-subtitle" data-scroll>
+                  <p>Visual design</p>
+              </div>
+  
+              <div class="project__container-images">
+                  <div class="project__image project__image-one_cover_art" data-scroll data-scroll-speed="1">
+                  </div>
+                  <div class="project__image project__image-two_cover_art" data-scroll data-scroll-speed="4">
+                  </div>
+                  <div class="project__image project__image-three_cover_art" data-scrol data-scroll-speed="2">
+                  </div>
+              </div>
+  
+              <div class="project-next-link" data-scroll>
+                  <a href="/NoworNever">Next</a>
+              </div>
+  
+          </div>
       </div>
-    </div>
-    </div>
+  </div>
+  </div>
+
+  
+  
     );
 };
+
+
+
+
 
 export const PackshotParfum = (props) => {
   return (

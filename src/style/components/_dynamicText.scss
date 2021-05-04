@@ -1,6 +1,8 @@
 .dynamic-text {
   position: relative;
   display: flex;
+  overflow: hidden;
+  align-items: center;
 
   .simply {
     color: white;

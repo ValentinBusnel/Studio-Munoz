@@ -296,37 +296,4 @@ span {
 
     }
   }
-
-  .slide-bottom {
-    right: 1%;
-    bottom: 35%;
-    height: 200px;
-    width: 30px;
-    position: absolute;
-    display: flex;
-    color: white;
-    background: none;
-    padding: 0;
-    margin: 0;
-    position: fixed;
-  }
-
-  .slide-dot {
-    height: 5px;
-    width: 5px;
-    color: black;
-    border: 2px solid white;
-    background: white;
-    border-radius: 50px;
-    margin: 10px;
-  }
-
-  .slide-dot:hover {
-    transform: scale(2);
-  }
-
-  .slide-dot.selected {
-    transform: scale(2);
-  }
-  
 }
