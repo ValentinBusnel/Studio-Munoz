@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav>
       <ul className='liste'>
         <a href='/'>
-          <h1 className='logo'>Studio Munoz</h1>
+          <h1 className='logo'>Studio Muñoz</h1>
         </a>
         <SocialNetwork />
         <NavLink to='/'><li className='items'>Home</li></NavLink>

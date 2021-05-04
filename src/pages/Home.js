@@ -12,7 +12,7 @@ const Home = () => {
         <SocialNetwork />
         <div className='home-main'>
           <div className='main-content'>
-            <h1>Studio Munoz</h1>
+            <h1>Studio Muñoz</h1>
             <h2>
               <DynamicText />
             </h2>

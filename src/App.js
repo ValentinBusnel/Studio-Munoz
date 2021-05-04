@@ -12,7 +12,7 @@ const App = () => {
       <Route exact path='/' component={Home} />
       <Route exact path='/project-1' component={Project1} />
       <Route exact path='/coverart' component={CoverArt} />
-      <Route exact path='/coverart' component={CoverArtforVenezuelanDJMrJoy} />
+      <Route exact path='/CoverArtforVenezuelanDJMrJoy' component={CoverArtforVenezuelanDJMrJoy} />
       <Route exact path='/packshotparfum' component={PackshotParfum} />
       <Route exact path='/packshotlightLogo' component={PackshotlightLogo} />
       <Route exact path='/PersonalPosters' component={PersonalPosters} />

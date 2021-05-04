@@ -17,7 +17,7 @@ body {
 
 .project__container {
     width: 70%;
-    margin: 100px auto;
+    margin: 50px auto;
     /* border: 1px solid #5c5c5c; */
     color: #fff;
     padding: 120px 40px;
@@ -39,7 +39,7 @@ body {
 .project__container-images {
     position: relative;
     width: 100%;
-    height: 2000px;
+    height: 2500px;
     padding: 40px 0;
 }
 
@@ -47,6 +47,13 @@ body {
     background: red;
     width: 600px;
     height: 500px;
+    margin: 40px auto;
+}
+
+.project__image_vertical {
+    background: red;
+    width: 600px;
+    height: 1100px;
     margin: 40px auto;
 }
 
@@ -58,17 +65,16 @@ body {
 .project__image-two_cover_art {
     position: relative;
     top: 0px;
-    left: -260px;
     background: url(../../assets/img/todas_mienten3.jpg) no-repeat ;
     background-size: cover;
+    background-position: center;
 }
 
 .project__image-three_cover_art {
     position: relative;
-    left: 300px;
     top: 0px;
     background: url(../../assets/img/todas_mienten_2.png) no-repeat ;
-    background-size: 65%;
+    background-size: cover;
 }
 
 .project__image-four {
@@ -92,7 +98,7 @@ body {
 .project-next-link a {
     color: #fff;
     text-decoration: none;
-    font-family: "GrandSlang Roman";
+    font-family: $font-2;
     font-size: 140px;
 }
 
@@ -124,6 +130,180 @@ body {
 
     .project__image-one_cover_art, .project__image-two_cover_art, .project__image-three_cover_art, .project__image-four {
         position: relative;
+        top: 0;
+        left: 0;
+    }
+}
+
+/* cover art Dj Mr Joy */
+
+.project__image-one_cover_art_Dj_MrJoy {
+    background: url(../../assets/img/Nowornever1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-two_cover_art_Dj_MrJoy {
+    position: relative;
+    background: url(../../assets/img/Nowornever2.jpg) no-repeat 50% 50% ;
+    background-size: cover;
+}
+
+.project__image-three_cover_art_Dj_MrJoy {
+    position: relative;
+    background: url(../../assets/img/Nowornever3.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-four_cover_art_Dj_MrJoy{
+    position: relative;
+    background: url(../../assets/img/Nowornever1.jpg) no-repeat 50% 50%;
+    background-size: 200%;
+}
+
+@media(max-width: 900px) {
+    .project__container-title h1 {
+        font-size: 40px;
+    }
+
+    .project__container {
+        width: 100%;
+    }
+
+    .project__container-images {
+        width: 100%;
+        margin: 0 auto;
+        background-size: cover;
+    }
+
+    .project__image {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .project__image-one_cover_art_Dj_MrJoy, .project__image-two_cover_art_Dj_MrJoy, .project__image-three_cover_art_Dj_MrJoy, .project__image_cover_art_Dj_MrJoy {
+        position: relative;
+        background-size: 200%;
+        top: 0;
+        left: 0;
+    }
+}
+
+
+/* PackshotParfum */
+
+.project__image-one_PackshotParfum {
+    background: url(../../assets/img/parfum1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    background-size: 150%;
+}
+
+.project__image-two_PackshotParfum {
+    position: relative;
+    left: -200px;
+    background: url(../../assets/img/parfum2.jpg) no-repeat 50% 50% ;
+    background-size: cover;
+    background-position: center;
+    background-size: 150%;
+}
+
+.project__image-three_PackshotParfum {
+    position: relative;
+    left: 200px;
+    background: url(../../assets/img/parfum3.jpg) no-repeat 50% 50%;
+    background-position: center;
+    background-size: 150%;
+}
+
+.project__image-four_PackshotParfum{
+    position: relative;
+    top: -200px;
+    left: -100px;
+    background: url(../../assets/img/Nowornever1.jpg) no-repeat 50% 50%;
+    background-size: 200%;
+}
+
+@media(max-width: 900px) {
+    .project__container-title h1 {
+        font-size: 40px;
+    }
+
+    .project__container {
+        width: 100%;
+    }
+
+    .project__container-images {
+        width: 100%;
+        margin: 0 auto;
+        background-size: cover;
+    }
+
+    .project__image {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .project__image-one_PackshotParfum, .project__image-two_PackshotParfum, .project__image-three_PackshotParfum, .project__image_PackshotParfum {
+        position: relative;
+        background-size: 200%;
+        top: 0;
+        left: 0;
+    }
+}
+
+/* Packshotlight Logo */
+
+.project__image-one_PackshotlightLogo{
+    background: url(../../assets/img/packshotlightgris.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-two_PackshotlightLogo {
+    position: relative;
+    background: url(../../assets/img/packshotlightorange.jpg) no-repeat 50% 50% ;
+    background-size: contain;
+    background-position: center;
+}
+
+.project__image-three_PackshotlightLogo {
+    position: relative;
+    background: url(../../assets/img/packshotlight2.jpg) no-repeat 50% 50%;
+    background-position: center;
+    background-size: contain;
+}
+
+.project__image-four_PackshotlightLogo{
+    position: relative;
+    top: -200px;
+    background: url(../../assets/img/Nowornever1.jpg) no-repeat 50% 50%;
+    background-size: 200%;
+}
+
+@media(max-width: 900px) {
+    .project__container-title h1 {
+        font-size: 40px;
+    }
+
+    .project__container {
+        width: 100%;
+    }
+
+    .project__container-images {
+        width: 100%;
+        margin: 0 auto;
+        background-size: cover;
+    }
+
+    .project__image {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .project__image-one_PackshotlightLogo, .project__image-two_PackshotlightLogo .project__image-three_PackshotlightLogo, .project__image_PackshotlightLogo {
+        position: relative;
+        background-size: 200%;
         top: 0;
         left: 0;
     }
