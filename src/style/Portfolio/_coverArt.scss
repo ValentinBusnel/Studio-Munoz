@@ -32,7 +32,7 @@ body {
 
 .project__container-subtitle {
     margin: 20px 0;
-    font-family: "Neue Montreal";
+    font-family: $font-2;
     font-size: 16px;
 }
 
@@ -117,8 +117,9 @@ body {
     }
 
     .project__image {
-        width: 90%;
+        width: 100%;
         background-size: cover;
+        background-position: center;
     }
 
     .project__image-one_cover_art, .project__image-two_cover_art, .project__image-three_cover_art, .project__image-four {
