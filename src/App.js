@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import { Project1 } from './pages/Projects'
 import About from './pages/About'
 import Contact from './pages/Contact'
-import { CoverArt, PackshotParfum, PackshotlightLogo, PersonalPosters, BookTraces, Monstrum, Venezuela, Passages, ArgonjiCapitales } from './Portfolio/Portfolio'
+import { CoverArt, PackshotParfum, PackshotlightLogo, PersonalPosters, BookTraces, Monstrum, Venezuela, Passages, ArgonjiCapitales, CoverArtforVenezuelanDJMrJoy } from './Portfolio/Portfolio'
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
       <Route exact path='/' component={Home} />
       <Route exact path='/project-1' component={Project1} />
       <Route exact path='/coverart' component={CoverArt} />
+      <Route exact path='/coverart' component={CoverArtforVenezuelanDJMrJoy} />
       <Route exact path='/packshotparfum' component={PackshotParfum} />
       <Route exact path='/packshotlightLogo' component={PackshotlightLogo} />
       <Route exact path='/PersonalPosters' component={PersonalPosters} />
