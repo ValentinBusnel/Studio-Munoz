@@ -20,8 +20,6 @@ export const CoverArt = (props) => {
                   </div>
                   <div class="project__image project__image-two_cover_art" data-scroll data-scroll-speed="4">
                   </div>
-                  <div class="project__image_vertical  project__image-three_cover_art" data-scrol data-scroll-speed="2">
-                  </div>
               </div>
               <NavLink to='/CoverArtforVenezuelanDJMrJoy' activeClassName='nav-active' className='project-next-link'>
                 <li>Next</li>
