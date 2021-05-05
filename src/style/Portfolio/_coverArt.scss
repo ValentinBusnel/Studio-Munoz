@@ -79,11 +79,15 @@ body {
     font-size: 100px;
 }
 
-.project-next-link li {
-    color: #fff;
+.project-next-link {
+    color: #fff !important;
     text-decoration: none;
     font-family: $font-2;
     font-size: 100px;
+}
+
+.project-next-link li:hover {
+    color: rgb(116, 116, 116);
 }
 
 .anime-js-title .letter {

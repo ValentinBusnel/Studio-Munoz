@@ -9,7 +9,7 @@ export const projectsData = [
     infos:
       'Cover Art for Venezuelan singer Jota G.',
     img: './assets/img/now or never_1.jpg',
-    link: '/CoverArtforVenezuelanDJMrJoy'
+    link: './CoverArtforVenezuelanDJMrJoy',
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ export const projectsData = [
     infos:
       'Cover Art for Venezuelan singer Jota G.',
     img: './assets/img/todas_mienten3.jpg',
-    link: '/coverart'
+    link: './coverart'
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const projectsData = [
     infos:
       'Packshot parfum',
     img: './assets/img/parfum2.jpg',
-    link: '/PackshotParfum'
+    link: './PackshotParfum'
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ export const projectsData = [
     infos:
       'Packshotlight Logo',
     img: './assets/img/packshotlightgris.jpg',
-    link: '/PackshotlightLogo'
+    link: './PackshotlightLogo'
   },
   {
     id: 5,
