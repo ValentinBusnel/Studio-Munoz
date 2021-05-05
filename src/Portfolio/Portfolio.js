@@ -53,6 +53,8 @@ export const CoverArtforVenezuelanDJMrJoy = (props) => {
                   </div>
                   <div class="project__image project__image-three_cover_art_Dj_MrJoy" data-scrol data-scroll-speed="2">
                   </div>
+                  <div class="project__image project__image-four_cover_art_Dj_MrJoy" data-scrol data-scroll-speed="2">
+                  </div>
               </div>
               <NavLink to='/PackshotParfum'  className='project-next-link'>
               <li>Next</li>
@@ -76,7 +78,7 @@ export const PackshotParfum = (props) => {
         <div class="wrapper">
           <div class="project__container" data-scroll-section>
               <div class="project__container-title" data-scroll>
-                <h1 class="anime-js-title">Cover Art Todas mienten</h1>
+                <h1 class="anime-js-title">Packshot <br />Parfum</h1>
           </div>
           <div class="project__container-subtitle" data-scroll>
               <p>Visual design</p>
@@ -165,6 +167,18 @@ export const PersonalPosters = (props) => {
               </div>
               <div class="project__image project__image-five_PersonalPosters" data-scroll data-scroll-speed="4">
               </div>
+              <div class="project__image project__image-six_PersonalPosters" data-scroll data-scroll-speed="1">
+              </div>
+              <div class="project__image project__image-seven_PersonalPosters" data-scroll data-scroll-speed="4">
+              </div>
+              <div class="project__image project__image-height_PersonalPosters" data-scroll data-scroll-speed="4">
+              </div>
+              <div class="project__image project__image-nine_PersonalPosters" data-scroll data-scroll-speed="4">
+              </div>
+              <div class="project__image project__image-ten_PersonalPosters" data-scroll data-scroll-speed="4">
+              </div>
+              <div class="project__image project__image-eleven_PersonalPosters" data-scroll data-scroll-speed="4">
+              </div>
           </div>
           <NavLink to='/BookTraces'  className='project-next-link'>
               <li>Next</li>
@@ -243,6 +257,10 @@ export const Monstrum = (props) => {
               </div>
               <div class="project__image project__image-seven_Monstrum" data-scrol data-scroll-speed="2">
               </div>
+              <div class="project__image project__image-height_Monstrum" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-nine_Monstrum" data-scrol data-scroll-speed="2">
+              </div>
           </div>
           <NavLink to='/Venezuela'  className='project-next-link'>
               <li>Next</li>
@@ -299,7 +317,7 @@ export const Passages = (props) => {
         <div class="wrapper">
           <div class="project__container" data-scroll-section>
               <div class="project__container-title" data-scroll>
-                <h1 class="anime-js-title">Venezuela <br /></h1>
+                <h1 class="anime-js-title">Passages<br /></h1>
           </div>
           <div class="project__container-subtitle" data-scroll>
               <p>Visual design</p>
@@ -316,6 +334,10 @@ export const Passages = (props) => {
               <div class="project__image project__image-five_Passages" data-scrol data-scroll-speed="2">
               </div>
               <div class="project__image project__image-six_Passages" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-seven_Passages" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-height_Passages" data-scrol data-scroll-speed="2">
               </div>
           </div>
           <NavLink to='/ArgonjiCapitales'  className='project-next-link'>
