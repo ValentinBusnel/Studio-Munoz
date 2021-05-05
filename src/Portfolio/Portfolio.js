@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import { NavLink } from 'react-router-dom';
 
 export const CoverArt = (props) => {
     return (
@@ -22,9 +23,9 @@ export const CoverArt = (props) => {
                   <div class="project__image_vertical  project__image-three_cover_art" data-scrol data-scroll-speed="2">
                   </div>
               </div>
-              <div class="project-next-link" data-scroll>
-                  <a href="/CoverArtforVenezuelanDJMrJoy">Next</a>
-              </div>
+              <NavLink to='/CoverArtforVenezuelanDJMrJoy' activeClassName='nav-active' className='project-next-link'>
+                <li>Next</li>
+             </NavLink>
             </div>
           </div>
         </div>
@@ -53,9 +54,9 @@ export const CoverArtforVenezuelanDJMrJoy = (props) => {
                   <div class="project__image project__image-three_cover_art_Dj_MrJoy" data-scrol data-scroll-speed="2">
                   </div>
               </div>
-              <div class="project-next-link" data-scroll>
-                  <a href="/PackshotParfum">Next</a>
-              </div>
+              <NavLink to='/PackshotParfum'  className='project-next-link'>
+              <li>Next</li>
+             </NavLink>
             </div>
           </div>
         </div>
@@ -88,9 +89,9 @@ export const PackshotParfum = (props) => {
               <div class="project__image project__image-three_PackshotParfum" data-scrol data-scroll-speed="2">
               </div>
           </div>
-          <div class="project-next-link" data-scroll>
-              <a href="/PackshotlightLogo">Next</a>
-          </div>
+          <NavLink to='/PackshotlightLogo'  className='project-next-link'>
+              <li>Next</li>
+          </NavLink>
         </div>
       </div>
     </div>
@@ -130,9 +131,9 @@ export const PackshotlightLogo = (props) => {
               <div class="project__image project__image-height_PackshotlightLogo" data-scrol data-scroll-speed="2">
               </div>
           </div>
-          <div class="project-next-link" data-scroll>
-              <a href="/PersonalPosters">Next</a>
-          </div>
+          <NavLink to='/PersonalPosters'  className='project-next-link'>
+              <li>Next</li>
+          </NavLink>
         </div>
       </div>
     </div>
@@ -165,9 +166,9 @@ export const PersonalPosters = (props) => {
               <div class="project__image project__image-five_PersonalPosters" data-scroll data-scroll-speed="4">
               </div>
           </div>
-          <div class="project-next-link" data-scroll>
-              <a href="/BookTraces">Next</a>
-          </div>
+          <NavLink to='/BookTraces'  className='project-next-link'>
+              <li>Next</li>
+          </NavLink>
         </div>
       </div>
     </div>
@@ -204,9 +205,9 @@ export const BookTraces = (props) => {
               <div class="project__image project__image-seven_BookTraces" data-scrol data-scroll-speed="2">
               </div>
           </div>
-          <div class="project-next-link" data-scroll>
-              <a href="/Monstrum">Next</a>
-          </div>
+          <NavLink to='/Monstrum'  className='project-next-link'>
+              <li>Next</li>
+          </NavLink>
         </div>
       </div>
     </div>
@@ -243,9 +244,9 @@ export const Monstrum = (props) => {
               <div class="project__image project__image-seven_Monstrum" data-scrol data-scroll-speed="2">
               </div>
           </div>
-          <div class="project-next-link" data-scroll>
-              <a href="/Venezuela">Next</a>
-          </div>
+          <NavLink to='/Venezuela'  className='project-next-link'>
+              <li>Next</li>
+          </NavLink>
         </div>
       </div>
     </div>
@@ -280,9 +281,9 @@ export const Venezuela = (props) => {
               <div class="project__image project__image-six_Venezuela" data-scrol data-scroll-speed="2">
               </div>
           </div>
-          <div class="project-next-link" data-scroll>
-              <a href="/Passages">Next</a>
-          </div>
+          <NavLink to='/Passages'  className='project-next-link'>
+              <li>Next</li>
+          </NavLink>
         </div>
       </div>
     </div>
@@ -317,9 +318,9 @@ export const Passages = (props) => {
               <div class="project__image project__image-six_Passages" data-scrol data-scroll-speed="2">
               </div>
           </div>
-          <div class="project-next-link" data-scroll>
-              <a href="/ArgonjiCapitales">Next</a>
-          </div>
+          <NavLink to='/ArgonjiCapitales'  className='project-next-link'>
+              <li>Next</li>
+          </NavLink>
         </div>
       </div>
     </div>
@@ -354,9 +355,9 @@ export const ArgonjiCapitales = (props) => {
               <div class="project__image project__image-six_ArgonjiCapitales" data-scrol data-scroll-speed="2">
               </div>
           </div>
-          <div class="project-next-link" data-scroll>
-              <a href="/project-1">End</a>
-          </div>
+          <NavLink to='/about'  className='project-next-link'>
+              <li>End</li>
+          </NavLink>
         </div>
       </div>
     </div>
