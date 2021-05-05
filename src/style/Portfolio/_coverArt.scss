@@ -11,14 +11,19 @@ body {
     overflow-x: hidden;
 }
 
-
-
-/* project section */
+/* 
+ ______           _                       _                    _               
+(_____ \         (_)           _         | |              _   (_)              
+ _____) )___ ___  _  ____ ____| |_        \ \   ____ ____| |_  _  ___  ____    
+|  ____/ ___) _ \| |/ _  ) ___)  _)        \ \ / _  ) ___)  _)| |/ _ \|  _ \   
+| |   | |  | |_| | ( (/ ( (___| |__    _____) | (/ ( (___| |__| | |_| | | | |  
+|_|   |_|   \___/| |\____)____)\___)  (______/ \____)____)\___)_|\___/|_| |_|  
+               (__/                                                            
+*/
 
 .project__container {
     width: 70%;
     margin: 50px auto;
-    /* border: 1px solid #5c5c5c; */
     color: #fff;
     padding: 120px 40px;
     text-align: center;
@@ -57,34 +62,6 @@ body {
     margin: 40px auto;
 }
 
-.project__image-one_cover_art {
-    background: url(../../assets/img/todas_mienten_grande.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.project__image-two_cover_art {
-    position: relative;
-    top: 0px;
-    background: url(../../assets/img/todas_mienten3.jpg) no-repeat ;
-    background-size: cover;
-    background-position: center;
-}
-
-.project__image-three_cover_art {
-    position: relative;
-    top: 0px;
-    background: url(../../assets/img/todas_mienten_2.png) no-repeat ;
-    background-size: cover;
-}
-
-.project__image-four {
-    position: relative;
-    top: -200px;
-    left: -100px;
-    background: url(../../assets/img/todas_mienten_grande.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
-
 .project-next-link {
     position: relative;
     top: -100px;
@@ -105,6 +82,50 @@ body {
 .anime-js-title .letter {
     display: inline-block;
     line-height: 1em;
+}
+
+/*
+  ______                                          
+ / _____)                                    _    
+| /      ___ _   _ ____  ____     ____  ____| |_  
+| |     / _ \ | | / _  )/ ___)   / _  |/ ___)  _) 
+| \____| |_| \ V ( (/ /| |      ( ( | | |   | |__ 
+ \______)___/ \_/ \____)_|       \_||_|_|    \___)
+*/
+
+.project__container-images_cover_art {
+    position: relative;
+    width: 100%;
+    height: 2500px;
+    padding: 40px 0;
+}
+
+.project__image-one_cover_art {
+    background: url(../../assets/img/todas_mienten_grande.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-two_cover_art {
+    position: relative;
+    top: 0px;
+    background: url(../../assets/img/todas_mienten3.jpg)  no-repeat 50% 50%; ;
+    background-size: cover;
+    background-position: center;
+}
+
+.project__image-three_cover_art {
+    position: relative;
+    top: 0px;
+    background: url(../../assets/img/todas_mienten_2.png) no-repeat ;
+    background-size: cover;
+}
+
+.project__image-four {
+    position: relative;
+    top: -200px;
+    left: -100px;
+    background: url(../../assets/img/todas_mienten_grande.jpg) no-repeat 50% 50%;
+    background-size: cover;
 }
 
 @media(max-width: 900px) {
@@ -133,9 +154,31 @@ body {
         top: 0;
         left: 0;
     }
+    
+    .project__image_vertical {
+        width: 600px;
+        height: 1100px;
+        background-size: 65%;
+        margin: 40px auto;
+    }
 }
 
-/* cover art Dj Mr Joy */
+/*  
+  ______                                                 _  _                     _             
+ / _____)                                    _          | |(_)                   (_)            
+| /      ___ _   _ ____  ____     ____  ____| |_      _ | | _    ____   ____      _  ___  _   _ 
+| |     / _ \ | | / _  )/ ___)   / _  |/ ___)  _)    / || || |  |    \ / ___)    | |/ _ \| | | |
+| \____| |_| \ V ( (/ /| |      ( ( | | |   | |__   ( (_| || |  | | | | |        | | |_| | |_| |
+ \______)___/ \_/ \____)_|       \_||_|_|    \___)   \____|| |  |_|_|_|_|       _| |\___/ \__  |
+                                                         (__/                  (__/      (____/ 
+ */
+
+.project__container-images_cover_art_Dj_MrJoy{
+    position: relative;
+    width: 100%;
+    height: 1900px;
+    padding: 40px 0;
+}
 
 .project__image-one_cover_art_Dj_MrJoy {
     background: url(../../assets/img/Nowornever1.jpg) no-repeat 50% 50%;
@@ -150,14 +193,8 @@ body {
 
 .project__image-three_cover_art_Dj_MrJoy {
     position: relative;
-    background: url(../../assets/img/Nowornever3.jpg) no-repeat 50% 50%;
+    background: url(../../assets/img/Nowornever3.jpg) no-repeat 50% 50% ;
     background-size: cover;
-}
-
-.project__image-four_cover_art_Dj_MrJoy{
-    position: relative;
-    background: url(../../assets/img/Nowornever1.jpg) no-repeat 50% 50%;
-    background-size: 200%;
 }
 
 @media(max-width: 900px) {
@@ -190,7 +227,21 @@ body {
 }
 
 
-/* PackshotParfum */
+/*  
+ ______            _          _                   ______             ___               
+(_____ \          | |        | |          _      (_____ \           / __)              
+ _____) )___  ____| |  _  ___| | _   ___ | |_     _____) )___  ____| |__ _   _ ____    
+|  ____/ _  |/ ___) | / )/___) || \ / _ \|  _)   |  ____/ _  |/ ___)  __) | | |    \   
+| |   ( ( | ( (___| |< (|___ | | | | |_| | |__   | |   ( ( | | |   | |  | |_| | | | |  
+|_|    \_||_|\____)_| \_|___/|_| |_|\___/ \___)  |_|    \_||_|_|   |_|   \____|_|_|_| 
+*/
+
+.project__container-images_PackshotParfum{
+    position: relative;
+    width: 100%;
+    height: 1900px;
+    padding: 40px 0;
+}
 
 .project__image-one_PackshotParfum {
     background: url(../../assets/img/parfum1.jpg) no-repeat 50% 50%;
@@ -200,7 +251,6 @@ body {
 
 .project__image-two_PackshotParfum {
     position: relative;
-    left: -200px;
     background: url(../../assets/img/parfum2.jpg) no-repeat 50% 50% ;
     background-size: cover;
     background-position: center;
@@ -209,7 +259,6 @@ body {
 
 .project__image-three_PackshotParfum {
     position: relative;
-    left: 200px;
     background: url(../../assets/img/parfum3.jpg) no-repeat 50% 50%;
     background-position: center;
     background-size: 150%;
@@ -252,33 +301,602 @@ body {
     }
 }
 
-/* Packshotlight Logo */
+/*
+ ______            _          _                _ _       _             _                          
+(_____ \          | |        | |          _   | (_)     | |    _      | |                         
+ _____) )___  ____| |  _  ___| | _   ___ | |_ | |_  ____| | _ | |_    | |      ___   ____  ___    
+|  ____/ _  |/ ___) | / )/___) || \ / _ \|  _)| | |/ _  | || \|  _)   | |     / _ \ / _  |/ _ \   
+| |   ( ( | ( (___| |< (|___ | | | | |_| | |__| | ( ( | | | | | |__   | |____| |_| ( ( | | |_| |  
+|_|    \_||_|\____)_| \_|___/|_| |_|\___/ \___)_|_|\_|| |_| |_|\___)  |_______)___/ \_|| |\___/   
+                                                  (_____|                          (_____|        
+*/
+
+
+.project__container-images_PackshotlightLogo{
+    position: relative;
+    width: 100%;
+    height: 4600px;
+    padding: 40px 0;
+}
 
 .project__image-one_PackshotlightLogo{
-    background: url(../../assets/img/packshotlightgris.jpg) no-repeat 50% 50%;
+    background: url(../../assets/img/packshotlight.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project__image-two_PackshotlightLogo {
     position: relative;
-    background: url(../../assets/img/packshotlightorange.jpg) no-repeat 50% 50% ;
-    background-size: contain;
+    background: url(../../assets/img/packshotlightgris.jpg) no-repeat 50% 50% ;
+    background-size: cover;
     background-position: center;
 }
 
 .project__image-three_PackshotlightLogo {
     position: relative;
+    background: url(../../assets/img/VALENTINO_1.jpg) no-repeat 50% 50% ;
+    background-size: cover;
+    background-position: center;
+}
+
+.project__image-four_PackshotlightLogo {
+    position: relative;
+    background: url(../../assets/img/packshotlightorange.jpg) no-repeat 50% 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.project__image-five_PackshotlightLogo{
+    position: relative;
+    background: url(../../assets/img/newpack-3copie.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-six_PackshotlightLogo {
+    position: relative;
+    background: url(../../assets/img/newpack-5.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-seven_PackshotlightLogo {
+    position: relative;
+    background: url(../../assets/img/JUS.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-height_PackshotlightLogo {
+    position: relative;
     background: url(../../assets/img/packshotlight2.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+@media(max-width: 900px) {
+    .project__container-title h1 {
+        font-size: 40px;
+    }
+
+    .project__container {
+        width: 100%;
+    }
+
+    .project__container-images {
+        width: 100%;
+        margin: 0 auto;
+        background-size: cover;
+    }
+
+    .project__image {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .project__image-one_PackshotlightLogo, .project__image-two_PackshotlightLogo .project__image-three_PackshotlightLogo, .project__image_PackshotlightLogo {
+        position: relative;
+        background-size: 200%;
+        top: 0;
+        left: 0;
+    }
+}
+
+/*
+______                                  _    ______                          _    
+(_____ \                                | |  (_____ \          _             ( )   
+ _____) )___  ____ ___  ___  ____   ____| |   _____) )__   ___| |_  ____  ___|/___ 
+|  ____/ _  )/ ___)___)/ _ \|  _ \ / _  | |  |  ____/ _ \ /___)  _)/ _  )/ ___)___)
+| |   ( (/ /| |  |___ | |_| | | | ( ( | | |  | |   | |_| |___ | |_( (/ /| |  |___ |
+|_|    \____)_|  (___/ \___/|_| |_|\_||_|_|  |_|    \___/(___/ \___)____)_|  (___/                                                                       
+*/
+
+.project__container-images_PersonalPosters{
+    position: relative;
+    width: 100%;
+    height: 3000px;
+    padding: 40px 0;
+}
+
+.project__image-one_PersonalPosters{
+    background: url(../../assets/img/015.jpg) no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.project__image-two_PersonalPosters {
+    position: relative;
+    background: url(../../assets/img/016.jpg) no-repeat 50% 50% ;
+    background-size: contain;
+    background-position: center;
+}
+
+.project__image-three_PersonalPosters {
+    position: relative;
+    background: url(../../assets/img/002_grande.jpg) no-repeat 50% 50% ;
+    background-size: contain;
+    background-position: center;
+}
+
+.project__image-four_PersonalPosters {
+    position: relative;
+    background: url(../../assets/img/003_grande.jpg) no-repeat 50% 50%;
     background-position: center;
     background-size: contain;
 }
 
-.project__image-four_PackshotlightLogo{
+.project__image-five_PersonalPosters{
     position: relative;
-    top: -200px;
-    background: url(../../assets/img/Nowornever1.jpg) no-repeat 50% 50%;
-    background-size: 200%;
+    background: url(../../assets/img/005_grande.jpg) no-repeat 50% 50%;
+    background-size: contain;
 }
+
+.project__image-six_PersonalPosters {
+    position: relative;
+    background: url(../../assets/img/newpack-5.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-seven_PersonalPosters{
+    position: relative;
+    background: url(../../assets/img/JUS.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-height_PersonalPosters {
+    position: relative;
+    background: url(../../assets/img/packshotlight2.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+@media(max-width: 900px) {
+    .project__container-title h1 {
+        font-size: 40px;
+    }
+
+    .project__container {
+        width: 100%;
+    }
+
+    .project__container-images {
+        width: 100%;
+        margin: 0 auto;
+        background-size: cover;
+    }
+
+    .project__image {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .project__image-one_PackshotlightLogo, .project__image-two_PackshotlightLogo .project__image-three_PackshotlightLogo, .project__image_PackshotlightLogo {
+        position: relative;
+        background-size: 200%;
+        top: 0;
+        left: 0;
+    }
+}
+
+
+/*
+ ______              _        _______                            
+(____  \            | |      (_______)                           
+ ____)  ) ___   ___ | |  _    _        ____ ____  ____ ____  ___ 
+|  __  ( / _ \ / _ \| | / )  | |      / ___) _  |/ ___) _  )/___)
+| |__)  ) |_| | |_| | |< (   | |_____| |  ( ( | ( (__( (/ /|___ |
+|______/ \___/ \___/|_| \_)   \______)_|   \_||_|\____)____|___/ 
+*/
+
+.project__container-images_BookTraces{
+    position: relative;
+    width: 100%;
+    height: 4100px;
+    padding: 40px 0;
+}
+
+.project__image-one_BookTraces{
+    background: url(../../assets/img/book1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-two_BookTraces {
+    position: relative;
+    background: url(../../assets/img/book2.jpg) no-repeat 50% 50% ;
+    background-size: cover;
+    background-position: center;
+}
+
+.project__image-three_BookTraces {
+    position: relative;
+    background: url(../../assets/img/book3.jpg) no-repeat 50% 50% ;
+    background-size: cover;
+    background-position: center;
+}
+
+.project__image-four_BookTraces{
+    position: relative;
+    background: url(../../assets/img/book5.jpg) no-repeat 50% 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.project__image-five_BookTraces{
+    position: relative;
+    background: url(../../assets/img/book6.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-six_BookTraces {
+    position: relative;
+    background: url(../../assets/img/book7.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-seven_BookTraces {
+    position: relative;
+    background: url(../../assets/img/book9.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+@media(max-width: 900px) {
+    .project__container-title h1 {
+        font-size: 40px;
+    }
+
+    .project__container {
+        width: 100%;
+    }
+
+    .project__container-images {
+        width: 100%;
+        margin: 0 auto;
+        background-size: cover;
+    }
+
+    .project__image {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .project__image-one_PackshotlightLogo, .project__image-two_PackshotlightLogo .project__image-three_PackshotlightLogo, .project__image_PackshotlightLogo {
+        position: relative;
+        background-size: 200%;
+        top: 0;
+        left: 0;
+    }
+}
+
+/*
+ ______                                          
+|  ___ \                  _                      
+| | _ | | ___  ____   ___| |_   ____ _   _ ____  
+| || || |/ _ \|  _ \ /___)  _) / ___) | | |    \ 
+| || || | |_| | | | |___ | |__| |   | |_| | | | |
+|_||_||_|\___/|_| |_(___/ \___)_|    \____|_|_|_|
+*/
+
+.project__container-images_Monstrum {
+    position: relative;
+    width: 100%;
+    height: 4100px;
+    padding: 40px 0;
+}
+
+.project__image-one_Monstrum {
+    background: url(../../assets/img/monstrum1_Mesadetrabajo1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-two_Monstrum  {
+    position: relative;
+    background: url(../../assets/img/monstrum3.jpg) no-repeat 50% 50% ;
+    background-size: cover;
+    background-position: center;
+}
+
+.project__image-three_Monstrum  {
+    position: relative;
+    background: url(../../assets/img/monstrum2.jpg) no-repeat 50% 50% ;
+    background-size: cover;
+    background-position: center;
+}
+
+.project__image-four_Monstrum {
+    position: relative;
+    background: url(../../assets/img/book5.jpg) no-repeat 50% 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.project__image-five_Monstrum {
+    position: relative;
+    background: url(../../assets/img/book6.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-six_Monstrum  {
+    position: relative;
+    background: url(../../assets/img/book7.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-seven_Monstrum  {
+    position: relative;
+    background: url(../../assets/img/book9.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+@media(max-width: 900px) {
+    .project__container-title h1 {
+        font-size: 40px;
+    }
+
+    .project__container {
+        width: 100%;
+    }
+
+    .project__container-images {
+        width: 100%;
+        margin: 0 auto;
+        background-size: cover;
+    }
+
+    .project__image {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .project__image-one_PackshotlightLogo, .project__image-two_PackshotlightLogo .project__image-three_PackshotlightLogo, .project__image_PackshotlightLogo {
+        position: relative;
+        background-size: 200%;
+        top: 0;
+        left: 0;
+    }
+}
+
+/*
+ _    _                                   _       
+| |  | |                                 | |      
+| |  | |___ ____   ____ _____ _   _  ____| | ____ 
+ \ \/ / _  )  _ \ / _  |___  ) | | |/ _  ) |/ _  |
+  \  ( (/ /| | | ( (/ / / __/| |_| ( (/ /| ( ( | |
+   \/ \____)_| |_|\____|_____)\____|\____)_|\_||_|      
+*/
+
+.project__container-images_Venezuela  {
+    position: relative;
+    width: 100%;
+    height: 3500px;
+    padding: 40px 0;
+}
+
+.project__image-one_Venezuela  {
+    background: url(../../assets/img/venezuela1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-two_Venezuela   {
+    position: relative;
+    background: url(../../assets/img/venezuela2.jpg) no-repeat 50% 50% ;
+    background-size: cover;
+    background-position: center;
+}
+
+.project__image-three_Venezuela   {
+    position: relative;
+    background: url(../../assets/img/venezuela3.jpg) no-repeat 50% 50% ;
+    background-size: cover;
+    background-position: center;
+}
+
+.project__image-four_Venezuela  {
+    position: relative;
+    background: url(../../assets/img/venezuela4.jpg) no-repeat 50% 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.project__image-five_Venezuela  {
+    position: relative;
+    background: url(../../assets/img/venezuela8.jpg) no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.project__image-six_Venezuela   {
+    position: relative;
+    background: url(../../assets/img/venezuelaeste.png) no-repeat 50% 50%;
+    background-size: contain;
+}
+
+@media(max-width: 900px) {
+    .project__container-title h1 {
+        font-size: 40px;
+    }
+
+    .project__container {
+        width: 100%;
+    }
+
+    .project__container-images {
+        width: 100%;
+        margin: 0 auto;
+        background-size: cover;
+    }
+
+    .project__image {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .project__image-one_PackshotlightLogo, .project__image-two_PackshotlightLogo .project__image-three_PackshotlightLogo, .project__image_PackshotlightLogo {
+        position: relative;
+        background-size: 200%;
+        top: 0;
+        left: 0;
+    }
+}
+
+/*
+ ______                                       
+(_____ \                                      
+ _____) )___  ___  ___  ____  ____  ____  ___ 
+|  ____/ _  |/___)/___)/ _  |/ _  |/ _  )/___)
+| |   ( ( | |___ |___ ( ( | ( ( | ( (/ /|___ |
+|_|    \_||_(___/(___/ \_||_|\_|| |\____|___/ 
+                            (_____|           
+*/
+
+
+.project__container-images_Passages  {
+    position: relative;
+    width: 100%;
+    height: 3500px;
+    padding: 40px 0;
+}
+
+.project__image-one_Passages {
+    background: url(../../assets/img/passages1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-two_Passages   {
+    position: relative;
+    background: url(../../assets/img/passages1.jpg) no-repeat 50% 50% ;
+    background-size: cover;
+    background-position: center;
+}
+
+.project__image-three_Passages  {
+    position: relative;
+    background: url(../../assets/img/passages1.jpg) no-repeat 50% 50% ;
+    background-size: cover;
+    background-position: center;
+}
+
+.project__image-four_Passages {
+    position: relative;
+    background: url(../../assets/img/passages1.jpg) no-repeat 50% 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.project__image-five_Passages  {
+    position: relative;
+    background: url(../../assets/img/passages1.jpg) no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.project__image-six_Passages   {
+    position: relative;
+    background: url(../../assets/img/passages1.jpg) no-repeat 50% 50%;
+    background-size: contain;
+}
+
+@media(max-width: 900px) {
+    .project__container-title h1 {
+        font-size: 40px;
+    }
+
+    .project__container {
+        width: 100%;
+    }
+
+    .project__container-images {
+        width: 100%;
+        margin: 0 auto;
+        background-size: cover;
+    }
+
+    .project__image {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .project__image-one_PackshotlightLogo, .project__image-two_PackshotlightLogo .project__image-three_PackshotlightLogo, .project__image_PackshotlightLogo {
+        position: relative;
+        background-size: 200%;
+        top: 0;
+        left: 0;
+    }
+}
+
+/*
+                                _ _     ______            _           _            
+   /\                          (_|_)   / _____)          (_)_        | |           
+  /  \   ____ ____  ___  ____   _ _   | /      ____ ____  _| |_  ____| | ____  ___ 
+ / /\ \ / ___) _  |/ _ \|  _ \ | | |  | |     / _  |  _ \| |  _)/ _  | |/ _  )/___)
+| |__| | |  ( ( | | |_| | | | || | |  | \____( ( | | | | | | |_( ( | | ( (/ /|___ |
+|______|_|   \_|| |\___/|_| |_|| |_|   \______)_||_| ||_/|_|\___)_||_|_|\____|___/ 
+            (_____|          (__/                  |_|                             
+*/
+
+
+.project__container-images_ArgonjiCapitales {
+    position: relative;
+    width: 100%;
+    height: 3500px;
+    padding: 40px 0;
+}
+
+.project__image-one_ArgonjiCapitales {
+    background: url(../../assets/img/typo.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-two_ArgonjiCapitales   {
+    position: relative;
+    background: url(../../assets/img/typo1.jpg) no-repeat 50% 50% ;
+    background-size: cover;
+    background-position: center;
+}
+
+.project__image-three_ArgonjiCapitales   {
+    position: relative;
+    background: url(../../assets/img/typo1.jpg) no-repeat 50% 50% ;
+    background-size: cover;
+    background-position: center;
+}
+
+.project__image-four_ArgonjiCapitales {
+    position: relative;
+    background: url(../../assets/img/typo3.jpg) no-repeat 50% 50% ;
+    background-size: cover;
+    background-position: center;
+}
+
+.project__image-five_ArgonjiCapitales {
+    position: relative;
+    background: url(../../assets/img/typo4.jpg) no-repeat 50% 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.project__image-six_ArgonjiCapitales {
+    position: relative;
+    background: url(../../assets/img/typo5.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
 
 @media(max-width: 900px) {
     .project__container-title h1 {

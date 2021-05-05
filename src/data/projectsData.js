@@ -45,7 +45,7 @@ export const projectsData = [
     infos:
       "Personal poster's",
     img: './assets/img/016.jpg',
-    link: './PersonalPosters'
+    link: '/PersonalPosters'
   },
   {
     id: 6,
@@ -54,7 +54,7 @@ export const projectsData = [
     infos:
       'Book Traces',
     img: './assets/img/book1.jpg',
-    link: './BookTraces'
+    link: '/BookTraces'
   },
   {
     id: 7,
@@ -63,7 +63,7 @@ export const projectsData = [
     infos:
       'Design the graphic signature of “Monstrum” for the new edition (Les Éditions Apogée). Inscribe the monster and the monstrous in a versatile, strange and whimsical normality.',
     img: './assets/img/monstrum1_Mesa de trabajo 1.jpg',
-    link: './Monstrum'
+    link: '/Monstrum'
   },
   {
     id: 8,
@@ -72,7 +72,7 @@ export const projectsData = [
     infos:
       'Design visual communication media (poster, flyer, website) for the temporary exhibition organized by “Reporters Without Borders” on the lack of expression and freedom in Venezuela at the Petit Palais in Paris.',
     img: './assets/img/venezuela3.jpg',
-    link: './Venezuela'
+    link: '/Venezuela'
   },
   {
     id: 9,
@@ -81,7 +81,7 @@ export const projectsData = [
     infos:
       'Design the visual communication of the Pas Sages festival (poster, flyer, program). Evoke the artistic and cultural environment as a subject that young people can appropriate.',
     img: './assets/img/passages1.jpg',
-    link: './Passages'
+    link: '/Passages'
   },
   {
     id: 10,
@@ -90,6 +90,6 @@ export const projectsData = [
     infos:
       'Argonji is the result of a workshop led by Jack Usine alias Tristan. This workshop consisted of working directly on the glyphs software from a reference typographic style to deliver a more contemporary delivery.',
     img: './assets/img/typo.jpg',
-    link: './ArgonjiCapitales'
+    link: '/ArgonjiCapitales'
   }
 ]

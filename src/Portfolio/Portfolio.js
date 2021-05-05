@@ -14,7 +14,7 @@ export const CoverArt = (props) => {
               <div class="project__container-subtitle" data-scroll>
                   <p>Visual design</p>
               </div>
-              <div class="project__container-images">
+              <div class="project__container-images_cover_art">
                   <div class="project__image project__image-one_cover_art" data-scroll data-scroll-speed="1">
                   </div>
                   <div class="project__image project__image-two_cover_art" data-scroll data-scroll-speed="4">
@@ -35,29 +35,31 @@ export const CoverArt = (props) => {
 export const CoverArtforVenezuelanDJMrJoy = (props) => {
   return (
     <div>
-      <Navbar />
-        <div id="js-scroll">
-          <div class="wrapper">
-            <div class="project__container" data-scroll-section>
-                <div class="project__container-title" data-scroll>
-                  <h1 class="anime-js-title">Cover Art for Venezuelan DJ MrJoy</h1>
-            </div>
-            <div class="project__container-subtitle" data-scroll>
-                <p>Visual design</p>
-            </div>
-                <div class="project__image project__image-one_cover_art_Dj_MrJoy" data-scroll data-scroll-speed="1">
-                </div>
-                <div class="project__image project__image-two_cover_art_Dj_MrJoy" data-scroll data-scroll-speed="4">
-                </div>
-                <div class="project__image project__image-three_cover_art_Dj_MrJoy" data-scrol data-scroll-speed="2">
-                </div>
-            </div>
-            <div class="project-next-link" data-scroll>
-                <a href="/PackshotParfum">Next</a>
+        <Navbar />
+          <div id="js-scroll">
+            <div class="wrapper">
+              <div class="project__container" data-scroll-section>
+                  <div class="project__container-title" data-scroll>
+                    <h1 class="anime-js-title">Cover Art Todas mienten</h1>
+              </div>
+              <div class="project__container-subtitle" data-scroll>
+                  <p>Visual design</p>
+              </div>
+              <div class="project__container-images_cover_art_Dj_MrJoy">
+                  <div class="project__image project__image-one_cover_art_Dj_MrJoy" data-scroll data-scroll-speed="1">
+                  </div>
+                  <div class="project__image project__image-two_cover_art_Dj_MrJoy" data-scroll data-scroll-speed="4">
+                  </div>
+                  <div class="project__image project__image-three_cover_art_Dj_MrJoy" data-scrol data-scroll-speed="2">
+                  </div>
+              </div>
+              <div class="project-next-link" data-scroll>
+                  <a href="/PackshotParfum">Next</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+    </div>
   );
 };
 
@@ -73,11 +75,12 @@ export const PackshotParfum = (props) => {
         <div class="wrapper">
           <div class="project__container" data-scroll-section>
               <div class="project__container-title" data-scroll>
-                <h1 class="anime-js-title">Packshot Parfum</h1>
+                <h1 class="anime-js-title">Cover Art Todas mienten</h1>
           </div>
           <div class="project__container-subtitle" data-scroll>
               <p>Visual design</p>
           </div>
+          <div class="project__container-images_PackshotParfum">
               <div class="project__image project__image-one_PackshotParfum" data-scroll data-scroll-speed="1">
               </div>
               <div class="project__image project__image-two_PackshotParfum" data-scroll data-scroll-speed="4">
@@ -91,6 +94,7 @@ export const PackshotParfum = (props) => {
         </div>
       </div>
     </div>
+</div>
   );
 };
 
@@ -106,18 +110,28 @@ export const PackshotlightLogo = (props) => {
                 <h1 class="anime-js-title">Packshotlight <br />Logo</h1>
           </div>
           <div class="project__container-subtitle" data-scroll>
-              <p>Visual design</p>
+              <p>Visual design <br /> PHOTOGRAPHER: SÉBASTIEN MARCHAND</p>
           </div>
-          <div class="project__container-images">
+          <div class="project__container-images_PackshotlightLogo">
               <div class="project__image project__image-one_PackshotlightLogo" data-scroll data-scroll-speed="1">
               </div>
               <div class="project__image project__image-two_PackshotlightLogo" data-scroll data-scroll-speed="4">
               </div>
-              <div class="project__image project__image-three_PackshotlightLogo" data-scrol data-scroll-speed="2">
+              <div class="project__image project__image-three_PackshotlightLogo" data-scroll data-scroll-speed="4">
+              </div>
+              <div class="project__image project__image-four_PackshotlightLogo" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-five_PackshotlightLogo" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-six_PackshotlightLogo" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-seven_PackshotlightLogo" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-height_PackshotlightLogo" data-scrol data-scroll-speed="2">
               </div>
           </div>
           <div class="project-next-link" data-scroll>
-              <a href="/PackshotParfum">Next</a>
+              <a href="/PersonalPosters">Next</a>
           </div>
         </div>
       </div>
@@ -134,21 +148,25 @@ export const PersonalPosters = (props) => {
         <div class="wrapper">
           <div class="project__container" data-scroll-section>
               <div class="project__container-title" data-scroll>
-                <h1 class="anime-js-title">Cover Art Todas mienten</h1>
+                <h1 class="anime-js-title">Personal <br /> Poster's</h1>
           </div>
           <div class="project__container-subtitle" data-scroll>
               <p>Visual design</p>
           </div>
-          <div class="project__container-images">
-              <div class="project__image project__image-one_cover_art" data-scroll data-scroll-speed="1">
+          <div class="project__container-images_PersonalPosters">
+              <div class="project__image project__image-one_PersonalPosters" data-scroll data-scroll-speed="1">
               </div>
-              <div class="project__image project__image-two_cover_art" data-scroll data-scroll-speed="4">
+              <div class="project__image project__image-two_PersonalPosters" data-scroll data-scroll-speed="4">
               </div>
-              <div class="project__image project__image-three_cover_art" data-scrol data-scroll-speed="2">
+              <div class="project__image project__image-three_PersonalPosters" data-scroll data-scroll-speed="4">
+              </div>
+              <div class="project__image project__image-four_PersonalPosters" data-scroll data-scroll-speed="4">
+              </div>
+              <div class="project__image project__image-five_PersonalPosters" data-scroll data-scroll-speed="4">
               </div>
           </div>
           <div class="project-next-link" data-scroll>
-              <a href="/PackshotParfum">Next</a>
+              <a href="/BookTraces">Next</a>
           </div>
         </div>
       </div>
@@ -165,21 +183,29 @@ export const BookTraces = (props) => {
         <div class="wrapper">
           <div class="project__container" data-scroll-section>
               <div class="project__container-title" data-scroll>
-                <h1 class="anime-js-title">Cover Art Todas mienten</h1>
+                <h1 class="anime-js-title">Book <br />Traces</h1>
           </div>
           <div class="project__container-subtitle" data-scroll>
               <p>Visual design</p>
           </div>
-          <div class="project__container-images">
-              <div class="project__image project__image-one_cover_art" data-scroll data-scroll-speed="1">
+          <div class="project__container-images_BookTraces">
+              <div class="project__image project__image-one_BookTraces" data-scroll data-scroll-speed="1">
               </div>
-              <div class="project__image project__image-two_cover_art" data-scroll data-scroll-speed="4">
+              <div class="project__image project__image-two_BookTraces" data-scroll data-scroll-speed="4">
               </div>
-              <div class="project__image project__image-three_cover_art" data-scrol data-scroll-speed="2">
+              <div class="project__image project__image-three_BookTraces" data-scroll data-scroll-speed="4">
+              </div>
+              <div class="project__image project__image-four_BookTraces" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-five_BookTraces" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-six_BookTraces" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-seven_BookTraces" data-scrol data-scroll-speed="2">
               </div>
           </div>
           <div class="project-next-link" data-scroll>
-              <a href="/PackshotParfum">Next</a>
+              <a href="/Monstrum">Next</a>
           </div>
         </div>
       </div>
@@ -196,21 +222,29 @@ export const Monstrum = (props) => {
         <div class="wrapper">
           <div class="project__container" data-scroll-section>
               <div class="project__container-title" data-scroll>
-                <h1 class="anime-js-title">Cover Art Todas mienten</h1>
+                <h1 class="anime-js-title">Monstrum <br /></h1>
           </div>
           <div class="project__container-subtitle" data-scroll>
               <p>Visual design</p>
           </div>
-          <div class="project__container-images">
-              <div class="project__image project__image-one_cover_art" data-scroll data-scroll-speed="1">
+          <div class="project__container-images_Monstrum">
+              <div class="project__image project__image-one_Monstrum" data-scroll data-scroll-speed="1">
               </div>
-              <div class="project__image project__image-two_cover_art" data-scroll data-scroll-speed="4">
+              <div class="project__image project__image-two_Monstrum" data-scroll data-scroll-speed="4">
               </div>
-              <div class="project__image project__image-three_cover_art" data-scrol data-scroll-speed="2">
+              <div class="project__image project__image-three_Monstrum" data-scroll data-scroll-speed="4">
+              </div>
+              <div class="project__image project__image-four_Monstrum" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-five_Monstrum" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-six_Monstrum" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-seven_Monstrum" data-scrol data-scroll-speed="2">
               </div>
           </div>
           <div class="project-next-link" data-scroll>
-              <a href="/PackshotParfum">Next</a>
+              <a href="/Venezuela">Next</a>
           </div>
         </div>
       </div>
@@ -227,21 +261,27 @@ export const Venezuela = (props) => {
         <div class="wrapper">
           <div class="project__container" data-scroll-section>
               <div class="project__container-title" data-scroll>
-                <h1 class="anime-js-title">Cover Art Todas mienten</h1>
+                <h1 class="anime-js-title">Venezuela <br /></h1>
           </div>
           <div class="project__container-subtitle" data-scroll>
               <p>Visual design</p>
           </div>
-          <div class="project__container-images">
-              <div class="project__image project__image-one_cover_art" data-scroll data-scroll-speed="1">
+          <div class="project__container-images_Venezuela">
+              <div class="project__image project__image-one_Venezuela" data-scroll data-scroll-speed="1">
               </div>
-              <div class="project__image project__image-two_cover_art" data-scroll data-scroll-speed="4">
+              <div class="project__image project__image-two_Venezuela" data-scroll data-scroll-speed="4">
               </div>
-              <div class="project__image project__image-three_cover_art" data-scrol data-scroll-speed="2">
+              <div class="project__image project__image-three_Venezuela" data-scroll data-scroll-speed="4">
+              </div>
+              <div class="project__image project__image-four_Venezuela" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-five_Venezuela" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-six_Venezuela" data-scrol data-scroll-speed="2">
               </div>
           </div>
           <div class="project-next-link" data-scroll>
-              <a href="/PackshotParfum">Next</a>
+              <a href="/Passages">Next</a>
           </div>
         </div>
       </div>
@@ -258,21 +298,27 @@ export const Passages = (props) => {
         <div class="wrapper">
           <div class="project__container" data-scroll-section>
               <div class="project__container-title" data-scroll>
-                <h1 class="anime-js-title">Cover Art Todas mienten</h1>
+                <h1 class="anime-js-title">Venezuela <br /></h1>
           </div>
           <div class="project__container-subtitle" data-scroll>
               <p>Visual design</p>
           </div>
-          <div class="project__container-images">
-              <div class="project__image project__image-one_cover_art" data-scroll data-scroll-speed="1">
+          <div class="project__container-images_Passages">
+              <div class="project__image project__image-one_Passages" data-scroll data-scroll-speed="1">
               </div>
-              <div class="project__image project__image-two_cover_art" data-scroll data-scroll-speed="4">
+              <div class="project__image project__image-two_Passages" data-scroll data-scroll-speed="4">
               </div>
-              <div class="project__image project__image-three_cover_art" data-scrol data-scroll-speed="2">
+              <div class="project__image project__image-three_Passages" data-scroll data-scroll-speed="4">
+              </div>
+              <div class="project__image project__image-four_Passages" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-five_Passages" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-six_Passages" data-scrol data-scroll-speed="2">
               </div>
           </div>
           <div class="project-next-link" data-scroll>
-              <a href="/PackshotParfum">Next</a>
+              <a href="/ArgonjiCapitales">Next</a>
           </div>
         </div>
       </div>
@@ -289,21 +335,27 @@ export const ArgonjiCapitales = (props) => {
         <div class="wrapper">
           <div class="project__container" data-scroll-section>
               <div class="project__container-title" data-scroll>
-                <h1 class="anime-js-title">Cover Art Todas mienten</h1>
+                <h1 class="anime-js-title">Argonji <br />Capitales</h1>
           </div>
           <div class="project__container-subtitle" data-scroll>
               <p>Visual design</p>
           </div>
-          <div class="project__container-images">
-              <div class="project__image project__image-one_cover_art" data-scroll data-scroll-speed="1">
+          <div class="project__container-images_ArgonjiCapitales">
+              <div class="project__image project__image-one_ArgonjiCapitales" data-scroll data-scroll-speed="1">
               </div>
-              <div class="project__image project__image-two_cover_art" data-scroll data-scroll-speed="4">
+              <div class="project__image project__image-two_ArgonjiCapitales" data-scroll data-scroll-speed="1">
               </div>
-              <div class="project__image project__image-three_cover_art" data-scrol data-scroll-speed="2">
+              <div class="project__image project__image-three_ArgonjiCapitales" data-scroll data-scroll-speed="4">
+              </div>
+              <div class="project__image project__image-four_ArgonjiCapitales" data-scroll data-scroll-speed="4">
+              </div>
+              <div class="project__image project__image-five_ArgonjiCapitales" data-scrol data-scroll-speed="2">
+              </div>
+              <div class="project__image project__image-six_ArgonjiCapitales" data-scrol data-scroll-speed="2">
               </div>
           </div>
           <div class="project-next-link" data-scroll>
-              <a href="/PackshotParfum">Next</a>
+              <a href="/project-1">End</a>
           </div>
         </div>
       </div>
