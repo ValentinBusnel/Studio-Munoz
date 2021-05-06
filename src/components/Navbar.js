@@ -6,9 +6,9 @@ const Navbar = () => {
   return (
     <nav>
       <ul className='liste'>
-        <a href='/'>
+        <NavLink to='/'>
           <h1 className='logo'>Studio Muñoz</h1>
-        </a>
+        </NavLink>
         <SocialNetwork />
         <NavLink to='/'><li className='items'>Home</li></NavLink>
         <NavLink to='/project-1'><li className='items-project'>Index

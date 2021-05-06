@@ -6,7 +6,6 @@ import Project from '../components/Project'
 export const Project1 = () => {
   return (
     <div className='pagefull'>
-
       <div className='project'>
         <div className='project'>
           <Navbar />

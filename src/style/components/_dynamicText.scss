@@ -5,7 +5,7 @@
   align-items: center;
 
   .simply {
-    color: white;
+    color: $color-2;
   }
 
   #text-target {
@@ -21,13 +21,13 @@
   }
   @keyframes color {
     0% {
-      color: white;
+      color: $color-2;
     }
     50% {
-      color: white;
+      color: $color-2;
     }
     100% {
-      color: white;
+      color: $color-2;
     }
   }
   .letter {

@@ -44,7 +44,7 @@ export const projectsData = [
     date: 'Juillet 2020',
     infos:
       "Personal poster's",
-    img: './assets/img/016.jpg',
+    img: './assets/img/0013.jpg',
     link: '/PersonalPosters'
   },
   {

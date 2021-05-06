@@ -3,7 +3,7 @@
   bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
-  color: white;
+  color: $color-2;
   font-size: 1.7rem;
   perspective: 40px;
 
@@ -56,10 +56,10 @@
       transition: 0.3s;
       display: inline-block;
       transform: translateY(-1px);
-      color: white;
+      color: $color-2;
 
       &:hover {
-        color: grey;
+        color: $color-3;
         font-size: 1.8rem;
       }
     }

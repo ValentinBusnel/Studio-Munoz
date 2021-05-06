@@ -7,7 +7,7 @@ const Project = (props) => {
   // eslint-disable-next-line
   const project = currentProject[props.projectNumber]
 
-  return (
+  return (    
     <div className='project-main'>
       <div className='project-content'>
         <h1>{project.title}</h1>

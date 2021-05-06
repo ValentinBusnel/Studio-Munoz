@@ -5,8 +5,8 @@ nav {
 
 .liste {
   list-style-type: none;
-  background-color:  #111;
-  border-bottom: solid 2px white;
+  background-color:  $color-1;
+  border-bottom: solid 2px $color-2;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -21,7 +21,7 @@ nav {
 .nav-projects {
   position: absolute;
   visibility: hidden;
-  border: solid 2px white;
+  border: solid 2px $color-2;
   opacity: 0;
   padding: 0 40px;
   width: 300px;
@@ -50,21 +50,21 @@ nav {
 
 .items, .items-project{
   margin-right: 10px;
-  color:white;
+  color: $color-2;
   cursor: pointer;
   padding: 15px;
   font-size: 1.1rem;
 }
 
 .items:hover, .items-project:hover{
-  color:grey;
+  color: $color-3;
 }
 
 .logo {
   top: 8px;
   left: 5%;
   z-index: 2;
-  color:white;
+  color: $color-2;
  
   @media screen and (max-width: 650px){
     display: none;
@@ -72,5 +72,5 @@ nav {
 }
 
 .logo:hover {
-  color: grey;
+  color: $color-3;
 }

@@ -10,9 +10,9 @@
 $font-1: "font-1", sans-serif;
 $font-2: "font-2", serif;
 
-$color-1: #ffffff;
-$color-2: #e7e3e3;
-$color-3: grey;
+$color-1: #111;
+$color-2: #ffffff;
+$color-3: rgb(168, 168, 168);
 $color-4: pink;
 $black: #1D2424;
 $red: red;
@@ -42,8 +42,8 @@ a:visited {
 body {
   font-family: $font-1;
   height: 100vh;
-  background-color: #111;
-  color: white;
+  background-color: $color-1;
+  color: $color-2;
   overflow-y: auto;
   overflow-x: hidden;
 

@@ -12,13 +12,13 @@
   height: 50px;
   bottom: 50px;
   right: 50px;
-  color: white;
+  color: $color-2;
   font-size: 2rem;
   cursor: pointer;
 }
 
 span {
-  color: white !important;
+  color: $color-2 !important;
 }
 
 .project {
@@ -73,7 +73,7 @@ span {
     top: 8px;
     left: 5%;
     z-index: 2;
-    color:white;
+    color: $color-2;
    
     @media screen and (max-width: 650px){
       display: none;
@@ -126,7 +126,7 @@ span {
         font-size: 3rem;
         margin-bottom: 12px;
         font-family: $font-2;
-        color: white;
+        color: $color-2;
         transform: scaleX(0);
         animation: transformTitle 1.5s ease forwards;
         transform-origin: 150%;
@@ -146,7 +146,7 @@ span {
       }
       p {
         margin-bottom: 30px;
-        color: grey;
+        color: $color-3;
         font-size: 1.2rem;
 
         @media screen and (max-width: 700px){
@@ -235,6 +235,7 @@ span {
         }
       }
     }
+
   }
   .button-container {
     width: 130px;
@@ -277,19 +278,19 @@ span {
         justify-content: center;
         color: $color-1;
         background: none;
-        border: solid 2px white;
+        border: solid 2px $color-2;
         transition-duration: 10s;
     }
 
     .button:hover::after {
       position: absolute;
       font-size: 1rem;
-      background: #111;
+      background:$color-1;
       content: " Yes, " attr(id) "please !";
       display: flex;
       align-items: center;
       justify-content: center;
-      color:rgb(255, 255, 255);
+      color: $color-2;
       height: 56px;
       width: 126px;
 

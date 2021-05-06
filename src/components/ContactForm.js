@@ -96,7 +96,7 @@ const ContactForm = () => {
 
   return (
     <form className="contact-form">
-      <h2>contact me</h2>
+      <h2>Contact me</h2>
       <div className="form-content">
         <input
           type="text"
@@ -104,7 +104,7 @@ const ContactForm = () => {
           name="name"
           required
           onChange={(e) => setName(e.target.value)}
-          placeholder="name *"
+          placeholder="Name *"
           value={name}
         />
         <input
@@ -112,7 +112,7 @@ const ContactForm = () => {
           id="company"
           name="company"
           onChange={(e) => setCompany(e.target.value)}
-          placeholder="company"
+          placeholder="Company"
           value={company}
         />
         <input
@@ -120,7 +120,7 @@ const ContactForm = () => {
           id="phone"
           name="phone"
           onChange={(e) => setPhone(e.target.value)}
-          placeholder="phone"
+          placeholder="Phone"
           value={phone}
         />
         <div className="email-content">
@@ -131,7 +131,7 @@ const ContactForm = () => {
             name="email"
             required
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="email *"
+            placeholder="Email *"
             value={email}
           />
         </div>
@@ -139,7 +139,7 @@ const ContactForm = () => {
           id="message"
           name="message"
           onChange={(e) => setMessage(e.target.value)}
-          placeholder="message *"
+          placeholder="Message *"
           value={message}
           required
         />
@@ -147,7 +147,7 @@ const ContactForm = () => {
       <input
         className="button hover"
         type="submit"
-        value="send"
+        value="Send"
         onClick={handleSubmit}
       />
       <div className="form-message"></div>
