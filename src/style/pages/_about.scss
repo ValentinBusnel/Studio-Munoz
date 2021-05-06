@@ -20,11 +20,13 @@
   background-repeat: no-repeat;
   background-position: right;
 
+
   @media screen and (max-width: 650px){
 
     .container {
+      background-color: rgba(17, 17, 17, 0.616);
       width: 100vw;
-      height: 100vh;
+      height: 100vh;  
     }
 
     background-image: url("../../assets/img/now\ or\ never_1.jpg");
