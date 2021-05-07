@@ -84,14 +84,14 @@
     top: 50px;
     left: -100%;
     opacity: 1;
-    transition: all 0.1s ease;
+    transition: all 2s ease;
   }
 
   .nav-menu.active {
     background: #242222;
     left: 0;
     opacity: 1;
-    transition: all 0.1s ease;
+    transition: all 2s ease;
     z-index: 1;
   }
 
