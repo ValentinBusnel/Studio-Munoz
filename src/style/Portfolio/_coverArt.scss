@@ -167,25 +167,28 @@ body {
     }
 
     .project__container {
-        width: 100%;
+        width: 100%;    
     }
 
     .project__container-images {
         width: 100%;
         margin: 0 auto;
         background-size: cover;
+        overflow: hidden;
     }
 
     .project__image {
         width: 100%;
         background-size: cover;
         background-position: center;
+        overflow: hidden;
     }
 
     .project__image-one_cover_art, .project__image-two_cover_art, .project__image-three_cover_art, .project__image-four {
         position: relative;
         top: 0;
         left: 0;
+        overflow: hidden;
     }
 
 }
@@ -234,22 +237,26 @@ body {
 @media(max-width: 900px) {
     .project__container-title h1 {
         font-size: 40px;
+        overflow: hidden;
     }
 
     .project__container {
         width: 100%;
+        overflow: hidden;
     }
 
     .project__container-images {
         width: 100%;
         margin: 0 auto;
         background-size: cover;
+        overflow: hidden;
     }
 
     .project__image {
         width: 100%;
         background-size: cover;
         background-position: center;
+        overflow: hidden;
     }
 
     .project__image-one_cover_art_Dj_MrJoy, .project__image-two_cover_art_Dj_MrJoy, .project__image-three_cover_art_Dj_MrJoy, .project__image_cover_art_Dj_MrJoy {
@@ -257,6 +264,7 @@ body {
         background-size: 200%;
         top: 0;
         left: 0;
+        overflow: hidden;
     }
 }
 
@@ -309,22 +317,26 @@ body {
 @media(max-width: 900px) {
     .project__container-title h1 {
         font-size: 40px;
+        overflow: hidden;
     }
 
     .project__container {
         width: 100%;
+        overflow: hidden;
     }
 
     .project__container-images {
         width: 100%;
         margin: 0 auto;
         background-size: cover;
+        overflow: hidden;
     }
 
     .project__image {
         width: 100%;
         background-size: cover;
         background-position: center;
+        overflow: hidden;
     }
 
     .project__image-one_PackshotParfum, .project__image-two_PackshotParfum, .project__image-three_PackshotParfum, .project__image_PackshotParfum {
@@ -332,6 +344,7 @@ body {
         background-size: 200%;
         top: 0;
         left: 0;
+        overflow: hidden;
     }
 }
 
@@ -406,22 +419,26 @@ body {
 @media(max-width: 900px) {
     .project__container-title h1 {
         font-size: 40px;
+        overflow: hidden;
     }
 
     .project__container {
         width: 100%;
+        overflow: hidden;
     }
 
     .project__container-images {
         width: 100%;
         margin: 0 auto;
         background-size: cover;
+        overflow: hidden;
     }
 
     .project__image {
         width: 100%;
         background-size: cover;
         background-position: center;
+        overflow: hidden;
     }
 
     .project__image-one_PackshotlightLogo, .project__image-two_PackshotlightLogo .project__image-three_PackshotlightLogo, .project__image_PackshotlightLogo {
@@ -429,6 +446,7 @@ body {
         background-size: 200%;
         top: 0;
         left: 0;
+        overflow: hidden;
     }
 }
 
@@ -519,22 +537,26 @@ ______                                  _    ______                          _
 @media(max-width: 900px) {
     .project__container-title h1 {
         font-size: 40px;
+        overflow: hidden;
     }
 
     .project__container {
         width: 100%;
+        overflow: hidden;
     }
 
     .project__container-images {
         width: 100%;
         margin: 0 auto;
         background-size: cover;
+        overflow: hidden;
     }
 
     .project__image {
         width: 100%;
         background-size: cover;
         background-position: center;
+        overflow: hidden;
     }
 
     .project__image-one_PackshotlightLogo, .project__image-two_PackshotlightLogo .project__image-three_PackshotlightLogo, .project__image_PackshotlightLogo {
@@ -542,6 +564,7 @@ ______                                  _    ______                          _
         background-size: 200%;
         top: 0;
         left: 0;
+        overflow: hidden;
     }
 }
 
@@ -609,22 +632,26 @@ ______                                  _    ______                          _
 @media(max-width: 900px) {
     .project__container-title h1 {
         font-size: 40px;
+        overflow: hidden;
     }
 
     .project__container {
         width: 100%;
+        overflow: hidden;
     }
 
     .project__container-images {
         width: 100%;
         margin: 0 auto;
         background-size: cover;
+        overflow: hidden;
     }
 
     .project__image {
         width: 100%;
         background-size: cover;
         background-position: center;
+        overflow: hidden;
     }
 
     .project__image-one_PackshotlightLogo, .project__image-two_PackshotlightLogo .project__image-three_PackshotlightLogo, .project__image_PackshotlightLogo {
@@ -632,6 +659,7 @@ ______                                  _    ______                          _
         background-size: 200%;
         top: 0;
         left: 0;
+        overflow: hidden;
     }
 }
 
@@ -710,22 +738,26 @@ ______                                  _    ______                          _
 @media(max-width: 900px) {
     .project__container-title h1 {
         font-size: 40px;
+        overflow: hidden;
     }
 
     .project__container {
         width: 100%;
+        overflow: hidden;
     }
 
     .project__container-images {
         width: 100%;
         margin: 0 auto;
         background-size: cover;
+        overflow: hidden;
     }
 
     .project__image {
         width: 100%;
         background-size: cover;
         background-position: center;
+        overflow: hidden;
     }
 
     .project__image-one_PackshotlightLogo, .project__image-two_PackshotlightLogo .project__image-three_PackshotlightLogo, .project__image_PackshotlightLogo {
@@ -733,6 +765,7 @@ ______                                  _    ______                          _
         background-size: 200%;
         top: 0;
         left: 0;
+        overflow: hidden;
     }
 }
 
@@ -793,22 +826,27 @@ ______                                  _    ______                          _
 @media(max-width: 900px) {
     .project__container-title h1 {
         font-size: 40px;
+        overflow: hidden;
     }
 
     .project__container {
         width: 100%;
+        overflow: hidden;
     }
+
 
     .project__container-images {
         width: 100%;
         margin: 0 auto;
         background-size: cover;
+        overflow: hidden;
     }
 
     .project__image {
         width: 100%;
         background-size: cover;
         background-position: center;
+        overflow: hidden;
     }
 
     .project__image-one_PackshotlightLogo, .project__image-two_PackshotlightLogo .project__image-three_PackshotlightLogo, .project__image_PackshotlightLogo {
@@ -816,6 +854,7 @@ ______                                  _    ______                          _
         background-size: 200%;
         top: 0;
         left: 0;
+        overflow: hidden;
     }
 }
 
@@ -890,22 +929,26 @@ ______                                  _    ______                          _
 @media(max-width: 900px) {
     .project__container-title h1 {
         font-size: 40px;
+        overflow: hidden;
     }
 
     .project__container {
         width: 100%;
+        overflow: hidden;
     }
 
     .project__container-images {
         width: 100%;
         margin: 0 auto;
         background-size: cover;
+        overflow: hidden;
     }
 
     .project__image {
         width: 100%;
         background-size: cover;
         background-position: center;
+        overflow: hidden;
     }
 
     .project__image-one_PackshotlightLogo, .project__image-two_PackshotlightLogo .project__image-three_PackshotlightLogo, .project__image_PackshotlightLogo {
@@ -913,6 +956,7 @@ ______                                  _    ______                          _
         background-size: 200%;
         top: 0;
         left: 0;
+        overflow: hidden;
     }
 }
 
@@ -977,22 +1021,26 @@ ______                                  _    ______                          _
 @media(max-width: 900px) {
     .project__container-title h1 {
         font-size: 40px;
+        overflow: hidden;
     }
 
     .project__container {
         width: 100%;
+        overflow: hidden;
     }
 
     .project__container-images {
         width: 100%;
         margin: 0 auto;
         background-size: cover;
+        overflow: hidden;
     }
 
     .project__image {
         width: 100%;
         background-size: cover;
         background-position: center;
+        overflow: hidden;
     }
 
     .project__image-one_PackshotlightLogo, .project__image-two_PackshotlightLogo .project__image-three_PackshotlightLogo, .project__image_PackshotlightLogo {
@@ -1000,5 +1048,6 @@ ______                                  _    ______                          _
         background-size: 200%;
         top: 0;
         left: 0;
+        overflow: hidden;
     }
 }
