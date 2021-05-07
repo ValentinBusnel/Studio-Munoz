@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import { NavLink} from 'react-router-dom';
 import Powerslap from '../components/video/Nowornevervideo.mp4'
 import Navigation from '../components/Navigation';

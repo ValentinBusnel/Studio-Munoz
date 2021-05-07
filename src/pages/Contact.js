@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import ButtonsBottom from '../components/ButtonsBottom'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import ContactForm from '../components/ContactForm'

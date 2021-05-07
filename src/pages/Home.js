@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import SocialNetwork from '../components/SocialNetwork'
 import DynamicText from '../components/DynamicText'
 import ButtonsBottom from '../components/ButtonsBottom'
 import Navigation from '../components/Navigation'
