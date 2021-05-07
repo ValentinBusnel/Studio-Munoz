@@ -19,6 +19,7 @@
   background-size: 50% 100%;
   background-repeat: no-repeat;
   background-position: right;
+  overflow-y: hidden;
 
 
   @media screen and (max-width: 650px){
@@ -43,6 +44,7 @@
   width: 50%;
   height: 100vh;
   margin: 0;
+  overflow-y: hidden;
 }
 
 .title_about {
