@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 
 export function Button () {
     return (
-        <Link to='Instagram'>
+        <a href='https://www.instagram.com/studiomunoz_/?hl=fr' target="_blank" rel="noreferrer">
             <i className='instagram-btn fab fa-instagram'/>
-        </Link>
+        </a>
     )
 }

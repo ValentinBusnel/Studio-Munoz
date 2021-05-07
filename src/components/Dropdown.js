@@ -18,7 +18,7 @@ function Dropdown() {
                                   to={item.link} 
                                   onClick={() => setClick(false)}
                             >
-                                {item.title}
+                                <p className='name_project'>{item.title}</p>
                             </Link>
                         </li>
                     )

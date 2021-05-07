@@ -1,7 +1,8 @@
 .dropdown-menu {
-    width: 200px;
+    width: 300px;
     position: absolute;
-    top: 49px;
+    z-index: 1000;
+    top: 50px;
     list-style: none;
     text-align: start;
 }
@@ -12,10 +13,14 @@
 }
 
 .dropdown-menu li:hover{
-    background: #111;
+    background: rgba(128, 128, 128, 0.493);
 }
 
-.list_of_project{
+.name_project {
+    color: $color-2;
+}
+
+.title{
     color: $color-2 !important;
 }
 
