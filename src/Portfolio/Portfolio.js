@@ -1,11 +1,13 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import { NavLink} from 'react-router-dom';
+import Powerslap from '../components/video/Nowornevervideo.mp4'
+import Navigation from '../components/Navigation';
 
 export const CoverArt = (props) => {
     return (
       <div>
-        <Navbar />
+        <Navigation />
           <div id="js-scroll">
             <div className="wrapper">
               <div className="container_of_button_project">
@@ -34,7 +36,7 @@ export const CoverArt = (props) => {
 export const CoverArtforVenezuelanDJMrJoy = (props) => {
   return (
     <div>
-        <Navbar />
+        <Navigation />
           <div id="js-scrollCoverArtforVenezuelanDJMrJoy">
             <div className="wrapper">
             <div className="container_of_button_project">
@@ -49,8 +51,9 @@ export const CoverArtforVenezuelanDJMrJoy = (props) => {
                   <p>Artwork</p>
               </div>
               <div className="project__container-images_cover_art_Dj_MrJoy">
-                  <div className="project__image project__image-one_cover_art_Dj_MrJoy" data-scroll data-scroll-speed="1">
-                  </div>
+                  <video className="project__image project__image-one_cover_art_Dj_MrJoy" autoPlay muted loop>
+                    <source src={Powerslap} type='video/mp4' />
+                  </video>
                   <div className="project__image project__image-two_cover_art_Dj_MrJoy" data-scroll data-scroll-speed="4">
                   </div>
                   <div className="project__image project__image-three_cover_art_Dj_MrJoy" data-scrol data-scroll-speed="2">
@@ -72,7 +75,7 @@ export const CoverArtforVenezuelanDJMrJoy = (props) => {
 export const PackshotParfum = (props) => {
   return (
     <div>
-    <Navbar />
+    <Navigation />
       <div id="js-scroll">
         <div className="wrapper">
         <div className="container_of_button_project">
@@ -105,7 +108,7 @@ export const PackshotParfum = (props) => {
 export const PackshotlightLogo = (props) => {
   return (
     <div>
-    <Navbar />
+    <Navigation />
       <div id="js-scroll">
         <div className="wrapper">
         <div className="container_of_button_project">
@@ -147,7 +150,7 @@ export const PackshotlightLogo = (props) => {
 export const PersonalPosters = (props) => {
   return (
     <div>
-    <Navbar />
+    <Navigation />
       <div id="js-scroll">
         <div className="wrapper">
         <div className="container_of_button_project">
@@ -195,7 +198,7 @@ export const PersonalPosters = (props) => {
 export const BookTraces = (props) => {
   return (
     <div>
-    <Navbar />
+    <Navigation />
       <div id="js-scroll">
         <div className="wrapper">
         <div className="container_of_button_project">
@@ -235,7 +238,7 @@ export const BookTraces = (props) => {
 export const Monstrum = (props) => {
   return (
     <div>
-    <Navbar />
+    <Navigation />
       <div id="js-scroll">
         <div className="wrapper">
         <div className="container_of_button_project">
@@ -279,7 +282,7 @@ export const Monstrum = (props) => {
 export const Venezuela = (props) => {
   return (
     <div>
-    <Navbar />
+    <Navigation />
       <div id="js-scroll">
         <div className="wrapper">
         <div className="container_of_button_project">
@@ -317,7 +320,7 @@ export const Venezuela = (props) => {
 export const Passages = (props) => {
   return (
     <div>
-    <Navbar />
+    <Navigation />
       <div id="js-scroll">
         <div className="wrapper">
         <div className="container_of_button_project">
@@ -359,7 +362,7 @@ export const Passages = (props) => {
 export const ArgonjiCapitales = (props) => {
   return (
     <div>
-    <Navbar />
+    <Navigation />
       <div id="js-scroll">
         <div className="wrapper">
         <div className="container_of_button_project">

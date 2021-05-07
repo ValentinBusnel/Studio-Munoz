@@ -2,13 +2,14 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import ButtonsBottom from '../components/ButtonsBottom'
 import Project from '../components/Project'
+import Navigation from '../components/Navigation'
 
 export const Project1 = () => {
   return (
     <div className='pagefull'>
       <div className='project'>
         <div className='project'>
-          <Navbar />
+          <Navigation />
           <Project projectNumber={1} />
           <ButtonsBottom left='/' right='about' />
         </div>

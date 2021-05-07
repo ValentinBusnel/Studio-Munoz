@@ -200,6 +200,7 @@ body {
                                                          (__/                  (__/      (____/ 
  */
 
+
 .project__container-images_cover_art_Dj_MrJoy{
     position: relative;
     width: 100%;
@@ -208,8 +209,8 @@ body {
 }
 
 .project__image-one_cover_art_Dj_MrJoy {
-    background: url(../../assets/img/Nowornever1.jpg) no-repeat 50% 50%;
-    background-size: cover;
+    object-fit: cover;
+    background-color: black;
 }
 
 .project__image-two_cover_art_Dj_MrJoy {

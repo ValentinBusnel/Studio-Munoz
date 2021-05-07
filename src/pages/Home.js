@@ -3,13 +3,13 @@ import Navbar from '../components/Navbar'
 import SocialNetwork from '../components/SocialNetwork'
 import DynamicText from '../components/DynamicText'
 import ButtonsBottom from '../components/ButtonsBottom'
+import Navigation from '../components/Navigation'
 
 const Home = () => {
   return (
     <div>
       <div className='home'>
-        <Navbar />
-        <SocialNetwork />
+        <Navigation />
         <div className='home-main'>
           <div className='main-content'>
             <h1>Studio Muñoz</h1>

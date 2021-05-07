@@ -3,12 +3,13 @@ import Navbar from '../components/Navbar'
 import ButtonsBottom from '../components/ButtonsBottom'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import ContactForm from '../components/ContactForm'
+import Navigation from '../components/Navigation'
 
 const Contact = () => {
   return (
       <div className="contact">
       <div className='contact-main'>
-      <Navbar />
+      <Navigation />
       <ButtonsBottom left='About' />
       <ContactForm />
         <div className='contact-infos'>
