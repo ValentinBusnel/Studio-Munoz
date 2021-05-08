@@ -1,6 +1,10 @@
-### This project is my first site with ReactJS.
+# This project is my first site with ReactJS.
 ## You can see that site here : https://studiomunozdesign.com/
-##_______________________________________________________________________________________________________________________________________________________________
+
+<img width="1440" alt="Capture d’écran 2021-05-08 à 15 36 23" src="https://user-images.githubusercontent.com/72020476/117541224-2796e600-b013-11eb-9981-dda37ce5aaad.png">
+
+
+##____________________________________________________________________________________________________
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
