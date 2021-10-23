@@ -26,13 +26,14 @@ $red: red;
   outline: none;
   border: none;
   text-decoration: none;
+  cursor: none;
 
   &::selection {
     color: $black;
     background: $color-2;
   }
 }
-html { 
+html {
   scroll-behavior: unset;
 }
 a,
@@ -51,8 +52,6 @@ body {
     position: relative;
     max-width: 100vw;
     overflow-y: initial;
-
-    
   }
 }
 main {

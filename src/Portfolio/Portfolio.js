@@ -395,4 +395,3 @@ export const ArgonjiCapitales = (props) => {
 </div>
   );
 };
-

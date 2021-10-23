@@ -2,10 +2,12 @@ import React from 'react'
 import ButtonsBottom from '../components/ButtonsBottom'
 import Project from '../components/Project'
 import Navigation from '../components/Navigation'
+import { Cursor } from '../components/Cursor'
 
 export const Project1 = () => {
   return (
     <div className='pagefull'>
+      <Cursor />
       <div className='project'>
         <div className='project'>
           <Navigation />
