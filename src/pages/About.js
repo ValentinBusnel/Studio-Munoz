@@ -1,10 +1,12 @@
 import React from 'react'
 import ButtonsBottom from '../components/ButtonsBottom'
 import Navigation from '../components/Navigation'
+import { Cursor } from '../components/Cursor'
 
 const About = () => {
   return (
     <div className='page_about'>
+      <Cursor />
       <Navigation />
       <ButtonsBottom left='project-1' right='Contact' />
     <div className='container'>

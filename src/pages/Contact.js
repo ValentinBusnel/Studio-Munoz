@@ -3,10 +3,12 @@ import ButtonsBottom from '../components/ButtonsBottom'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import ContactForm from '../components/ContactForm'
 import Navigation from '../components/Navigation'
+import { Cursor } from '../components/Cursor'
 
 const Contact = () => {
   return (
       <div className="contact">
+        <Cursor />
       <div className='contact-main'>
       <Navigation />
       <ButtonsBottom left='About' />

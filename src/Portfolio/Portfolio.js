@@ -2,10 +2,12 @@ import React from 'react';
 import { NavLink} from 'react-router-dom';
 import Powerslap from '../components/video/Nowornevervideo.mp4'
 import Navigation from '../components/Navigation';
+import { Cursor } from '../components/Cursor';
 
 export const CoverArt = (props) => {
     return (
       <div>
+        <Cursor />
         <Navigation />
           <div id="js-scroll">
             <div className="wrapper">
@@ -35,6 +37,7 @@ export const CoverArt = (props) => {
 export const CoverArtforVenezuelanDJMrJoy = (props) => {
   return (
     <div>
+      <Cursor />
         <Navigation />
           <div id="js-scrollCoverArtforVenezuelanDJMrJoy">
             <div className="wrapper">
@@ -74,6 +77,7 @@ export const CoverArtforVenezuelanDJMrJoy = (props) => {
 export const PackshotParfum = (props) => {
   return (
     <div>
+      <Cursor />
     <Navigation />
       <div id="js-scroll">
         <div className="wrapper">
@@ -107,6 +111,7 @@ export const PackshotParfum = (props) => {
 export const PackshotlightLogo = (props) => {
   return (
     <div>
+      <Cursor />
     <Navigation />
       <div id="js-scroll">
         <div className="wrapper">
@@ -149,6 +154,7 @@ export const PackshotlightLogo = (props) => {
 export const PersonalPosters = (props) => {
   return (
     <div>
+      <Cursor />
     <Navigation />
       <div id="js-scroll">
         <div className="wrapper">
@@ -197,6 +203,7 @@ export const PersonalPosters = (props) => {
 export const BookTraces = (props) => {
   return (
     <div>
+      <Cursor />
     <Navigation />
       <div id="js-scroll">
         <div className="wrapper">
@@ -237,6 +244,7 @@ export const BookTraces = (props) => {
 export const Monstrum = (props) => {
   return (
     <div>
+      <Cursor />
     <Navigation />
       <div id="js-scroll">
         <div className="wrapper">
@@ -281,6 +289,7 @@ export const Monstrum = (props) => {
 export const Venezuela = (props) => {
   return (
     <div>
+      <Cursor />
     <Navigation />
       <div id="js-scroll">
         <div className="wrapper">
@@ -319,6 +328,7 @@ export const Venezuela = (props) => {
 export const Passages = (props) => {
   return (
     <div>
+      <Cursor />
     <Navigation />
       <div id="js-scroll">
         <div className="wrapper">
@@ -361,6 +371,7 @@ export const Passages = (props) => {
 export const ArgonjiCapitales = (props) => {
   return (
     <div>
+      <Cursor />
     <Navigation />
       <div id="js-scroll">
         <div className="wrapper">
